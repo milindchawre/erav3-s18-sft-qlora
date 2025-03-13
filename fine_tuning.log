@@ -1,0 +1,1523 @@
+2025-03-13 14:19:05.103331: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-03-13 14:19:05.378859: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-03-13 14:19:05.452393: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+config.json: 100%|█████████████████████████████| 735/735 [00:00<00:00, 4.57MB/s]
+model.safetensors.index.json: 100%|████████| 35.7k/35.7k [00:00<00:00, 24.8MB/s]
+Downloading shards:   0%|                                 | 0/2 [00:00<?, ?it/s]
+model-00001-of-00002.safetensors:   0%|             | 0.00/5.00G [00:00<?, ?B/s]
+model-00001-of-00002.safetensors:   0%|    | 10.5M/5.00G [00:00<00:59, 83.7MB/s]
+model-00001-of-00002.safetensors:   1%|     | 31.5M/5.00G [00:00<00:37, 131MB/s]
+model-00001-of-00002.safetensors:   1%|     | 62.9M/5.00G [00:00<00:26, 185MB/s]
+model-00001-of-00002.safetensors:   2%|     | 94.4M/5.00G [00:00<00:23, 210MB/s]
+model-00001-of-00002.safetensors:   3%|▏     | 126M/5.00G [00:00<00:22, 221MB/s]
+model-00001-of-00002.safetensors:   3%|▏     | 157M/5.00G [00:00<00:21, 223MB/s]
+model-00001-of-00002.safetensors:   4%|▏     | 189M/5.00G [00:00<00:24, 195MB/s]
+model-00001-of-00002.safetensors:   4%|▎     | 220M/5.00G [00:01<00:22, 215MB/s]
+model-00001-of-00002.safetensors:   5%|▎     | 252M/5.00G [00:01<00:20, 227MB/s]
+model-00001-of-00002.safetensors:   6%|▎     | 283M/5.00G [00:01<00:19, 236MB/s]
+model-00001-of-00002.safetensors:   6%|▍     | 315M/5.00G [00:01<00:19, 244MB/s]
+model-00001-of-00002.safetensors:   7%|▍     | 346M/5.00G [00:01<00:18, 251MB/s]
+model-00001-of-00002.safetensors:   8%|▍     | 377M/5.00G [00:01<00:18, 251MB/s]
+model-00001-of-00002.safetensors:   8%|▍     | 409M/5.00G [00:01<00:18, 253MB/s]
+model-00001-of-00002.safetensors:   9%|▌     | 440M/5.00G [00:01<00:18, 246MB/s]
+model-00001-of-00002.safetensors:   9%|▌     | 472M/5.00G [00:02<00:18, 244MB/s]
+model-00001-of-00002.safetensors:  10%|▌     | 503M/5.00G [00:02<00:18, 244MB/s]
+model-00001-of-00002.safetensors:  11%|▋     | 535M/5.00G [00:02<00:18, 244MB/s]
+model-00001-of-00002.safetensors:  11%|▋     | 566M/5.00G [00:02<00:18, 244MB/s]
+model-00001-of-00002.safetensors:  12%|▋     | 598M/5.00G [00:02<00:18, 241MB/s]
+model-00001-of-00002.safetensors:  13%|▊     | 629M/5.00G [00:02<00:18, 241MB/s]
+model-00001-of-00002.safetensors:  13%|▊     | 661M/5.00G [00:02<00:18, 240MB/s]
+model-00001-of-00002.safetensors:  14%|▊     | 692M/5.00G [00:02<00:17, 241MB/s]
+model-00001-of-00002.safetensors:  14%|▊     | 724M/5.00G [00:03<00:17, 244MB/s]
+model-00001-of-00002.safetensors:  15%|▉     | 755M/5.00G [00:03<00:16, 252MB/s]
+model-00001-of-00002.safetensors:  16%|▉     | 786M/5.00G [00:03<00:16, 250MB/s]
+model-00001-of-00002.safetensors:  16%|▉     | 818M/5.00G [00:03<00:16, 247MB/s]
+model-00001-of-00002.safetensors:  17%|█     | 849M/5.00G [00:03<00:16, 247MB/s]
+model-00001-of-00002.safetensors:  18%|█     | 881M/5.00G [00:03<00:16, 248MB/s]
+model-00001-of-00002.safetensors:  18%|█     | 912M/5.00G [00:03<00:16, 248MB/s]
+model-00001-of-00002.safetensors:  19%|█▏    | 944M/5.00G [00:04<00:16, 244MB/s]
+model-00001-of-00002.safetensors:  20%|█▏    | 975M/5.00G [00:04<00:16, 241MB/s]
+model-00001-of-00002.safetensors:  20%|█    | 1.01G/5.00G [00:04<00:16, 244MB/s]
+model-00001-of-00002.safetensors:  21%|█    | 1.04G/5.00G [00:04<00:16, 244MB/s]
+model-00001-of-00002.safetensors:  21%|█    | 1.07G/5.00G [00:04<00:16, 237MB/s]
+model-00001-of-00002.safetensors:  22%|█    | 1.10G/5.00G [00:04<00:16, 232MB/s]
+model-00001-of-00002.safetensors:  23%|█▏   | 1.13G/5.00G [00:04<00:16, 235MB/s]
+model-00001-of-00002.safetensors:  23%|█▏   | 1.16G/5.00G [00:04<00:16, 239MB/s]
+model-00001-of-00002.safetensors:  24%|█▏   | 1.20G/5.00G [00:05<00:15, 243MB/s]
+model-00001-of-00002.safetensors:  25%|█▏   | 1.23G/5.00G [00:05<00:15, 248MB/s]
+model-00001-of-00002.safetensors:  25%|█▎   | 1.26G/5.00G [00:05<00:15, 248MB/s]
+model-00001-of-00002.safetensors:  26%|█▎   | 1.29G/5.00G [00:05<00:15, 245MB/s]
+model-00001-of-00002.safetensors:  26%|█▎   | 1.32G/5.00G [00:05<00:15, 240MB/s]
+model-00001-of-00002.safetensors:  27%|█▎   | 1.35G/5.00G [00:05<00:15, 241MB/s]
+model-00001-of-00002.safetensors:  28%|█▍   | 1.38G/5.00G [00:05<00:14, 242MB/s]
+model-00001-of-00002.safetensors:  28%|█▍   | 1.42G/5.00G [00:05<00:14, 242MB/s]
+model-00001-of-00002.safetensors:  29%|█▍   | 1.45G/5.00G [00:06<00:17, 206MB/s]
+model-00001-of-00002.safetensors:  30%|█▍   | 1.48G/5.00G [00:06<00:15, 220MB/s]
+model-00001-of-00002.safetensors:  30%|█▌   | 1.51G/5.00G [00:06<00:14, 233MB/s]
+model-00001-of-00002.safetensors:  31%|█▌   | 1.54G/5.00G [00:06<00:14, 238MB/s]
+model-00001-of-00002.safetensors:  31%|█▌   | 1.57G/5.00G [00:06<00:14, 239MB/s]
+model-00001-of-00002.safetensors:  32%|█▌   | 1.60G/5.00G [00:06<00:14, 240MB/s]
+model-00001-of-00002.safetensors:  33%|█▋   | 1.64G/5.00G [00:06<00:14, 239MB/s]
+model-00001-of-00002.safetensors:  33%|█▋   | 1.67G/5.00G [00:07<00:13, 244MB/s]
+model-00001-of-00002.safetensors:  34%|█▋   | 1.70G/5.00G [00:07<00:14, 225MB/s]
+model-00001-of-00002.safetensors:  35%|█▋   | 1.73G/5.00G [00:07<00:14, 228MB/s]
+model-00001-of-00002.safetensors:  35%|█▊   | 1.76G/5.00G [00:07<00:13, 233MB/s]
+model-00001-of-00002.safetensors:  36%|█▊   | 1.79G/5.00G [00:07<00:13, 236MB/s]
+model-00001-of-00002.safetensors:  37%|█▊   | 1.82G/5.00G [00:07<00:13, 232MB/s]
+model-00001-of-00002.safetensors:  37%|█▊   | 1.86G/5.00G [00:07<00:13, 234MB/s]
+model-00001-of-00002.safetensors:  38%|█▉   | 1.89G/5.00G [00:08<00:16, 186MB/s]
+model-00001-of-00002.safetensors:  38%|█▉   | 1.92G/5.00G [00:08<00:15, 198MB/s]
+model-00001-of-00002.safetensors:  39%|█▉   | 1.95G/5.00G [00:08<00:14, 211MB/s]
+model-00001-of-00002.safetensors:  40%|█▉   | 1.98G/5.00G [00:08<00:13, 220MB/s]
+model-00001-of-00002.safetensors:  40%|██   | 2.01G/5.00G [00:08<00:13, 229MB/s]
+model-00001-of-00002.safetensors:  41%|██   | 2.04G/5.00G [00:08<00:12, 238MB/s]
+model-00001-of-00002.safetensors:  42%|██   | 2.08G/5.00G [00:08<00:12, 241MB/s]
+model-00001-of-00002.safetensors:  42%|██   | 2.11G/5.00G [00:09<00:16, 180MB/s]
+model-00001-of-00002.safetensors:  43%|██▏  | 2.14G/5.00G [00:09<00:14, 195MB/s]
+model-00001-of-00002.safetensors:  43%|██▏  | 2.17G/5.00G [00:09<00:13, 206MB/s]
+model-00001-of-00002.safetensors:  44%|██▏  | 2.20G/5.00G [00:09<00:12, 218MB/s]
+model-00001-of-00002.safetensors:  45%|██▏  | 2.23G/5.00G [00:09<00:12, 223MB/s]
+model-00001-of-00002.safetensors:  45%|██▎  | 2.26G/5.00G [00:09<00:12, 227MB/s]
+model-00001-of-00002.safetensors:  46%|██▎  | 2.30G/5.00G [00:09<00:11, 231MB/s]
+model-00001-of-00002.safetensors:  47%|██▎  | 2.33G/5.00G [00:10<00:15, 175MB/s]
+model-00001-of-00002.safetensors:  47%|██▎  | 2.35G/5.00G [00:10<00:16, 158MB/s]
+model-00001-of-00002.safetensors:  48%|██▍  | 2.38G/5.00G [00:10<00:14, 176MB/s]
+model-00001-of-00002.safetensors:  48%|██▍  | 2.41G/5.00G [00:10<00:13, 191MB/s]
+model-00001-of-00002.safetensors:  49%|██▍  | 2.44G/5.00G [00:10<00:12, 206MB/s]
+model-00001-of-00002.safetensors:  50%|██▍  | 2.47G/5.00G [00:10<00:11, 215MB/s]
+model-00001-of-00002.safetensors:  50%|██▌  | 2.51G/5.00G [00:11<00:11, 223MB/s]
+model-00001-of-00002.safetensors:  51%|██▌  | 2.54G/5.00G [00:11<00:11, 217MB/s]
+model-00001-of-00002.safetensors:  51%|██▌  | 2.57G/5.00G [00:11<00:10, 225MB/s]
+model-00001-of-00002.safetensors:  52%|██▌  | 2.60G/5.00G [00:11<00:10, 234MB/s]
+model-00001-of-00002.safetensors:  53%|██▋  | 2.63G/5.00G [00:11<00:09, 240MB/s]
+model-00001-of-00002.safetensors:  53%|██▋  | 2.66G/5.00G [00:11<00:09, 250MB/s]
+model-00001-of-00002.safetensors:  54%|██▋  | 2.69G/5.00G [00:11<00:09, 248MB/s]
+model-00001-of-00002.safetensors:  55%|██▋  | 2.73G/5.00G [00:12<00:14, 161MB/s]
+model-00001-of-00002.safetensors:  55%|██▊  | 2.76G/5.00G [00:12<00:12, 176MB/s]
+model-00001-of-00002.safetensors:  56%|██▊  | 2.79G/5.00G [00:12<00:11, 190MB/s]
+model-00001-of-00002.safetensors:  56%|██▊  | 2.82G/5.00G [00:12<00:10, 199MB/s]
+model-00001-of-00002.safetensors:  57%|██▊  | 2.85G/5.00G [00:12<00:10, 211MB/s]
+model-00001-of-00002.safetensors:  58%|██▉  | 2.88G/5.00G [00:12<00:09, 224MB/s]
+model-00001-of-00002.safetensors:  58%|██▉  | 2.92G/5.00G [00:12<00:08, 238MB/s]
+model-00001-of-00002.safetensors:  59%|██▉  | 2.95G/5.00G [00:13<00:09, 206MB/s]
+model-00001-of-00002.safetensors:  60%|██▉  | 2.98G/5.00G [00:13<00:09, 220MB/s]
+model-00001-of-00002.safetensors:  60%|███  | 3.01G/5.00G [00:13<00:08, 226MB/s]
+model-00001-of-00002.safetensors:  61%|███  | 3.04G/5.00G [00:13<00:08, 230MB/s]
+model-00001-of-00002.safetensors:  62%|███  | 3.07G/5.00G [00:13<00:08, 233MB/s]
+model-00001-of-00002.safetensors:  62%|███  | 3.10G/5.00G [00:13<00:07, 240MB/s]
+model-00001-of-00002.safetensors:  63%|███▏ | 3.14G/5.00G [00:13<00:07, 237MB/s]
+model-00001-of-00002.safetensors:  63%|███▏ | 3.17G/5.00G [00:14<00:10, 180MB/s]
+model-00001-of-00002.safetensors:  64%|███▏ | 3.20G/5.00G [00:14<00:09, 197MB/s]
+model-00001-of-00002.safetensors:  65%|███▏ | 3.23G/5.00G [00:14<00:08, 208MB/s]
+model-00001-of-00002.safetensors:  65%|███▎ | 3.26G/5.00G [00:14<00:08, 216MB/s]
+model-00001-of-00002.safetensors:  66%|███▎ | 3.29G/5.00G [00:14<00:07, 226MB/s]
+model-00001-of-00002.safetensors:  67%|███▎ | 3.32G/5.00G [00:14<00:07, 234MB/s]
+model-00001-of-00002.safetensors:  67%|███▎ | 3.36G/5.00G [00:15<00:09, 178MB/s]
+model-00001-of-00002.safetensors:  68%|███▍ | 3.39G/5.00G [00:15<00:08, 194MB/s]
+model-00001-of-00002.safetensors:  68%|███▍ | 3.42G/5.00G [00:15<00:07, 207MB/s]
+model-00001-of-00002.safetensors:  69%|███▍ | 3.45G/5.00G [00:15<00:07, 217MB/s]
+model-00001-of-00002.safetensors:  70%|███▍ | 3.48G/5.00G [00:15<00:06, 221MB/s]
+model-00001-of-00002.safetensors:  70%|███▌ | 3.51G/5.00G [00:15<00:06, 226MB/s]
+model-00001-of-00002.safetensors:  71%|███▌ | 3.54G/5.00G [00:15<00:06, 229MB/s]
+model-00001-of-00002.safetensors:  72%|███▌ | 3.58G/5.00G [00:16<00:07, 180MB/s]
+model-00001-of-00002.safetensors:  72%|███▌ | 3.61G/5.00G [00:16<00:07, 195MB/s]
+model-00001-of-00002.safetensors:  73%|███▋ | 3.64G/5.00G [00:16<00:06, 207MB/s]
+model-00001-of-00002.safetensors:  73%|███▋ | 3.67G/5.00G [00:16<00:06, 217MB/s]
+model-00001-of-00002.safetensors:  74%|███▋ | 3.70G/5.00G [00:16<00:05, 227MB/s]
+model-00001-of-00002.safetensors:  75%|███▋ | 3.73G/5.00G [00:16<00:05, 233MB/s]
+model-00001-of-00002.safetensors:  75%|███▊ | 3.76G/5.00G [00:16<00:05, 236MB/s]
+model-00001-of-00002.safetensors:  76%|███▊ | 3.80G/5.00G [00:17<00:06, 182MB/s]
+model-00001-of-00002.safetensors:  77%|███▊ | 3.83G/5.00G [00:17<00:05, 196MB/s]
+model-00001-of-00002.safetensors:  77%|███▊ | 3.86G/5.00G [00:17<00:05, 208MB/s]
+model-00001-of-00002.safetensors:  78%|███▉ | 3.89G/5.00G [00:17<00:05, 219MB/s]
+model-00001-of-00002.safetensors:  79%|███▉ | 3.92G/5.00G [00:17<00:04, 227MB/s]
+model-00001-of-00002.safetensors:  79%|███▉ | 3.95G/5.00G [00:17<00:04, 234MB/s]
+model-00001-of-00002.safetensors:  80%|███▉ | 3.98G/5.00G [00:18<00:05, 177MB/s]
+model-00001-of-00002.safetensors:  80%|████ | 4.02G/5.00G [00:18<00:05, 193MB/s]
+model-00001-of-00002.safetensors:  81%|████ | 4.05G/5.00G [00:18<00:04, 205MB/s]
+model-00001-of-00002.safetensors:  82%|████ | 4.08G/5.00G [00:18<00:04, 212MB/s]
+model-00001-of-00002.safetensors:  82%|████ | 4.11G/5.00G [00:18<00:03, 223MB/s]
+model-00001-of-00002.safetensors:  83%|████▏| 4.14G/5.00G [00:18<00:03, 230MB/s]
+model-00001-of-00002.safetensors:  84%|████▏| 4.17G/5.00G [00:18<00:03, 240MB/s]
+model-00001-of-00002.safetensors:  84%|████▏| 4.20G/5.00G [00:19<00:04, 179MB/s]
+model-00001-of-00002.safetensors:  85%|████▏| 4.24G/5.00G [00:19<00:03, 194MB/s]
+model-00001-of-00002.safetensors:  85%|████▎| 4.27G/5.00G [00:19<00:03, 202MB/s]
+model-00001-of-00002.safetensors:  86%|████▎| 4.30G/5.00G [00:19<00:03, 214MB/s]
+model-00001-of-00002.safetensors:  87%|████▎| 4.33G/5.00G [00:19<00:02, 222MB/s]
+model-00001-of-00002.safetensors:  87%|████▎| 4.36G/5.00G [00:19<00:02, 228MB/s]
+model-00001-of-00002.safetensors:  88%|████▍| 4.39G/5.00G [00:19<00:02, 231MB/s]
+model-00001-of-00002.safetensors:  89%|████▍| 4.42G/5.00G [00:20<00:03, 182MB/s]
+model-00001-of-00002.safetensors:  89%|████▍| 4.46G/5.00G [00:20<00:02, 198MB/s]
+model-00001-of-00002.safetensors:  90%|████▍| 4.49G/5.00G [00:20<00:02, 197MB/s]
+model-00001-of-00002.safetensors:  90%|████▌| 4.51G/5.00G [00:20<00:02, 179MB/s]
+model-00001-of-00002.safetensors:  91%|████▌| 4.54G/5.00G [00:20<00:02, 196MB/s]
+model-00001-of-00002.safetensors:  92%|████▌| 4.57G/5.00G [00:20<00:02, 209MB/s]
+model-00001-of-00002.safetensors:  92%|████▌| 4.60G/5.00G [00:21<00:01, 218MB/s]
+model-00001-of-00002.safetensors:  93%|████▋| 4.63G/5.00G [00:21<00:01, 210MB/s]
+model-00001-of-00002.safetensors:  93%|████▋| 4.67G/5.00G [00:21<00:01, 222MB/s]
+model-00001-of-00002.safetensors:  94%|████▋| 4.70G/5.00G [00:21<00:01, 229MB/s]
+model-00001-of-00002.safetensors:  95%|████▋| 4.73G/5.00G [00:21<00:01, 234MB/s]
+model-00001-of-00002.safetensors:  95%|████▊| 4.76G/5.00G [00:21<00:01, 233MB/s]
+model-00001-of-00002.safetensors:  96%|████▊| 4.79G/5.00G [00:21<00:00, 240MB/s]
+model-00001-of-00002.safetensors:  97%|████▊| 4.82G/5.00G [00:22<00:00, 179MB/s]
+model-00001-of-00002.safetensors:  97%|████▊| 4.85G/5.00G [00:22<00:00, 192MB/s]
+model-00001-of-00002.safetensors:  98%|████▉| 4.89G/5.00G [00:22<00:00, 205MB/s]
+model-00001-of-00002.safetensors:  98%|████▉| 4.92G/5.00G [00:22<00:00, 215MB/s]
+model-00001-of-00002.safetensors:  99%|████▉| 4.95G/5.00G [00:22<00:00, 221MB/s]
+model-00001-of-00002.safetensors: 100%|█████| 5.00G/5.00G [00:22<00:00, 218MB/s]
+Downloading shards:  50%|████████████▌            | 1/2 [00:22<00:22, 22.98s/it]
+model-00002-of-00002.safetensors:   0%|              | 0.00/564M [00:00<?, ?B/s]
+model-00002-of-00002.safetensors:   4%|▏     | 21.0M/564M [00:00<00:04, 134MB/s]
+model-00002-of-00002.safetensors:   7%|▍     | 41.9M/564M [00:00<00:03, 157MB/s]
+model-00002-of-00002.safetensors:  13%|▊     | 73.4M/564M [00:00<00:02, 194MB/s]
+model-00002-of-00002.safetensors:  19%|█▎     | 105M/564M [00:00<00:02, 216MB/s]
+model-00002-of-00002.safetensors:  24%|█▋     | 136M/564M [00:00<00:03, 140MB/s]
+model-00002-of-00002.safetensors:  30%|██     | 168M/564M [00:01<00:02, 167MB/s]
+model-00002-of-00002.safetensors:  35%|██▍    | 199M/564M [00:01<00:01, 186MB/s]
+model-00002-of-00002.safetensors:  41%|██▊    | 231M/564M [00:01<00:01, 205MB/s]
+model-00002-of-00002.safetensors:  46%|███▎   | 262M/564M [00:01<00:01, 215MB/s]
+model-00002-of-00002.safetensors:  52%|███▋   | 294M/564M [00:01<00:01, 221MB/s]
+model-00002-of-00002.safetensors:  58%|████   | 325M/564M [00:01<00:01, 227MB/s]
+model-00002-of-00002.safetensors:  63%|████▍  | 357M/564M [00:01<00:00, 232MB/s]
+model-00002-of-00002.safetensors:  69%|████▊  | 388M/564M [00:01<00:00, 238MB/s]
+model-00002-of-00002.safetensors:  74%|█████▏ | 419M/564M [00:02<00:00, 246MB/s]
+model-00002-of-00002.safetensors:  80%|█████▌ | 451M/564M [00:02<00:00, 249MB/s]
+model-00002-of-00002.safetensors:  86%|█████▉ | 482M/564M [00:02<00:00, 244MB/s]
+model-00002-of-00002.safetensors:  91%|██████▍| 514M/564M [00:02<00:00, 244MB/s]
+model-00002-of-00002.safetensors: 100%|███████| 564M/564M [00:02<00:00, 215MB/s]
+Downloading shards: 100%|█████████████████████████| 2/2 [00:25<00:00, 12.83s/it]
+Loading checkpoint shards: 100%|██████████████████| 2/2 [00:02<00:00,  1.49s/it]
+generation_config.json: 100%|██████████████████| 124/124 [00:00<00:00, 1.04MB/s]
+tokenizer_config.json: 100%|███████████████| 7.34k/7.34k [00:00<00:00, 31.7MB/s]
+vocab.json: 100%|████████████████████████████| 798k/798k [00:00<00:00, 8.63MB/s]
+merges.txt: 100%|████████████████████████████| 456k/456k [00:00<00:00, 58.4MB/s]
+tokenizer.json: 100%|██████████████████████| 2.11M/2.11M [00:00<00:00, 36.7MB/s]
+added_tokens.json: 100%|███████████████████| 1.08k/1.08k [00:00<00:00, 11.7MB/s]
+special_tokens_map.json: 100%|████████████████| 99.0/99.0 [00:00<00:00, 880kB/s]
+README.md: 100%|███████████████████████████| 10.2k/10.2k [00:00<00:00, 54.3MB/s]
+(…)-00000-of-00001-b42a775f407cee45.parquet: 100%|█| 39.5M/39.5M [00:00<00:00, 1
+(…)-00000-of-00001-134b8fd0c89408b6.parquet: 100%|█| 2.08M/2.08M [00:00<00:00, 2
+Generating train split: 100%|██| 84437/84437 [00:00<00:00, 181599.78 examples/s]
+Generating validation split: 100%|█| 4401/4401 [00:00<00:00, 195842.47 examples/
+Building conversation threads...
+
+Formatting conversations...
+Found 100 valid conversations
+Found 100 valid conversations
+Found 100 valid conversations
+Found 100 valid conversations
+Found 200 valid conversations
+Found 200 valid conversations
+Found 200 valid conversations
+Found 200 valid conversations
+Found 300 valid conversations
+Found 300 valid conversations
+Found 300 valid conversations
+Found 300 valid conversations
+Found 300 valid conversations
+Found 300 valid conversations
+Found 300 valid conversations
+Found 300 valid conversations
+Found 300 valid conversations
+Found 300 valid conversations
+Found 300 valid conversations
+Found 300 valid conversations
+Found 400 valid conversations
+Found 400 valid conversations
+Found 400 valid conversations
+Found 400 valid conversations
+Found 500 valid conversations
+Found 500 valid conversations
+Found 500 valid conversations
+Found 500 valid conversations
+Found 500 valid conversations
+Found 500 valid conversations
+Found 500 valid conversations
+Found 500 valid conversations
+Found 500 valid conversations
+Found 500 valid conversations
+Found 500 valid conversations
+Found 500 valid conversations
+Found 600 valid conversations
+Found 600 valid conversations
+Found 600 valid conversations
+Found 600 valid conversations
+Found 700 valid conversations
+Found 700 valid conversations
+Found 700 valid conversations
+Found 700 valid conversations
+Found 800 valid conversations
+Found 800 valid conversations
+Found 800 valid conversations
+Found 800 valid conversations
+Found 900 valid conversations
+Found 900 valid conversations
+Found 900 valid conversations
+Found 900 valid conversations
+Found 900 valid conversations
+Found 900 valid conversations
+Found 900 valid conversations
+Found 900 valid conversations
+Found 900 valid conversations
+Found 900 valid conversations
+Found 900 valid conversations
+Found 900 valid conversations
+Found 1000 valid conversations
+Found 1000 valid conversations
+Found 1000 valid conversations
+Found 1000 valid conversations
+Found 1100 valid conversations
+Found 1100 valid conversations
+Found 1100 valid conversations
+Found 1100 valid conversations
+Found 1200 valid conversations
+Found 1200 valid conversations
+Found 1200 valid conversations
+Found 1200 valid conversations
+Found 1300 valid conversations
+Found 1300 valid conversations
+Found 1300 valid conversations
+Found 1300 valid conversations
+Found 1400 valid conversations
+Found 1400 valid conversations
+Found 1400 valid conversations
+Found 1400 valid conversations
+Found 1500 valid conversations
+Found 1500 valid conversations
+Found 1500 valid conversations
+Found 1500 valid conversations
+Found 1600 valid conversations
+Found 1600 valid conversations
+Found 1600 valid conversations
+Found 1600 valid conversations
+Found 1700 valid conversations
+Found 1700 valid conversations
+Found 1700 valid conversations
+Found 1700 valid conversations
+Found 1800 valid conversations
+Found 1800 valid conversations
+Found 1800 valid conversations
+Found 1800 valid conversations
+Found 1900 valid conversations
+Found 1900 valid conversations
+Found 1900 valid conversations
+Found 1900 valid conversations
+Found 1900 valid conversations
+Found 1900 valid conversations
+Found 1900 valid conversations
+Found 1900 valid conversations
+Found 1900 valid conversations
+Found 1900 valid conversations
+Found 1900 valid conversations
+Found 1900 valid conversations
+Found 1900 valid conversations
+Found 2000 valid conversations
+Found 2000 valid conversations
+Found 2000 valid conversations
+Found 2000 valid conversations
+Found 2100 valid conversations
+Found 2100 valid conversations
+Found 2100 valid conversations
+Found 2100 valid conversations
+Found 2200 valid conversations
+Found 2200 valid conversations
+Found 2200 valid conversations
+Found 2200 valid conversations
+Found 2300 valid conversations
+Found 2300 valid conversations
+Found 2300 valid conversations
+Found 2300 valid conversations
+Found 2300 valid conversations
+Found 2300 valid conversations
+Found 2300 valid conversations
+Found 2300 valid conversations
+Found 2300 valid conversations
+Found 2300 valid conversations
+Found 2300 valid conversations
+Found 2300 valid conversations
+Found 2400 valid conversations
+Found 2400 valid conversations
+Found 2400 valid conversations
+Found 2400 valid conversations
+Found 2500 valid conversations
+Found 2500 valid conversations
+Found 2500 valid conversations
+Found 2500 valid conversations
+Found 2500 valid conversations
+Found 2500 valid conversations
+Found 2500 valid conversations
+Found 2500 valid conversations
+Found 2500 valid conversations
+Found 2500 valid conversations
+Found 2500 valid conversations
+Found 2500 valid conversations
+Found 2600 valid conversations
+Found 2600 valid conversations
+Found 2600 valid conversations
+Found 2600 valid conversations
+Found 2600 valid conversations
+Found 2600 valid conversations
+Found 2600 valid conversations
+Found 2600 valid conversations
+Found 2600 valid conversations
+Found 2600 valid conversations
+Found 2600 valid conversations
+Found 2600 valid conversations
+Found 2600 valid conversations
+Found 2700 valid conversations
+Found 2700 valid conversations
+Found 2700 valid conversations
+Found 2700 valid conversations
+Found 2700 valid conversations
+Found 2700 valid conversations
+Found 2700 valid conversations
+Found 2700 valid conversations
+Found 2700 valid conversations
+Found 2700 valid conversations
+Found 2700 valid conversations
+Found 2700 valid conversations
+Found 2700 valid conversations
+Found 2800 valid conversations
+Found 2800 valid conversations
+Found 2800 valid conversations
+Found 2800 valid conversations
+Found 2900 valid conversations
+Found 2900 valid conversations
+Found 2900 valid conversations
+Found 2900 valid conversations
+Found 2900 valid conversations
+Found 2900 valid conversations
+Found 2900 valid conversations
+Found 2900 valid conversations
+Found 2900 valid conversations
+Found 3000 valid conversations
+Found 3000 valid conversations
+Found 3000 valid conversations
+Found 3000 valid conversations
+Found 3000 valid conversations
+Found 3000 valid conversations
+Found 3000 valid conversations
+Found 3000 valid conversations
+Found 3000 valid conversations
+Found 3000 valid conversations
+Found 3000 valid conversations
+Found 3000 valid conversations
+Found 3100 valid conversations
+Found 3100 valid conversations
+Found 3100 valid conversations
+Found 3100 valid conversations
+Found 3100 valid conversations
+Found 3100 valid conversations
+Found 3100 valid conversations
+Found 3100 valid conversations
+Found 3100 valid conversations
+Found 3200 valid conversations
+Found 3200 valid conversations
+Found 3200 valid conversations
+Found 3200 valid conversations
+Found 3200 valid conversations
+Found 3200 valid conversations
+Found 3200 valid conversations
+Found 3200 valid conversations
+Found 3200 valid conversations
+Found 3300 valid conversations
+Found 3300 valid conversations
+Found 3300 valid conversations
+Found 3300 valid conversations
+Found 3300 valid conversations
+Found 3300 valid conversations
+Found 3300 valid conversations
+Found 3300 valid conversations
+Found 3300 valid conversations
+Found 3300 valid conversations
+Found 3300 valid conversations
+Found 3300 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3400 valid conversations
+Found 3500 valid conversations
+Found 3500 valid conversations
+Found 3500 valid conversations
+Found 3500 valid conversations
+Found 3600 valid conversations
+Found 3600 valid conversations
+Found 3600 valid conversations
+Found 3600 valid conversations
+Found 3600 valid conversations
+Found 3600 valid conversations
+Found 3600 valid conversations
+Found 3600 valid conversations
+Found 3600 valid conversations
+Found 3600 valid conversations
+Found 3600 valid conversations
+Found 3600 valid conversations
+Found 3700 valid conversations
+Found 3700 valid conversations
+Found 3700 valid conversations
+Found 3700 valid conversations
+Found 3700 valid conversations
+Found 3800 valid conversations
+Found 3800 valid conversations
+Found 3800 valid conversations
+Found 3800 valid conversations
+Found 3800 valid conversations
+Found 3800 valid conversations
+Found 3800 valid conversations
+Found 3800 valid conversations
+Found 3800 valid conversations
+Found 3800 valid conversations
+Found 3800 valid conversations
+Found 3800 valid conversations
+Found 3900 valid conversations
+Found 3900 valid conversations
+Found 3900 valid conversations
+Found 3900 valid conversations
+Found 3900 valid conversations
+Found 3900 valid conversations
+Found 3900 valid conversations
+Found 3900 valid conversations
+Found 3900 valid conversations
+Found 3900 valid conversations
+Found 3900 valid conversations
+Found 3900 valid conversations
+Found 4000 valid conversations
+Found 4000 valid conversations
+Found 4000 valid conversations
+Found 4000 valid conversations
+Found 4000 valid conversations
+Found 4000 valid conversations
+Found 4000 valid conversations
+Found 4000 valid conversations
+Found 4000 valid conversations
+Found 4000 valid conversations
+Found 4000 valid conversations
+Found 4000 valid conversations
+Found 4100 valid conversations
+Found 4100 valid conversations
+Found 4100 valid conversations
+Found 4100 valid conversations
+Found 4100 valid conversations
+Found 4100 valid conversations
+Found 4100 valid conversations
+Found 4100 valid conversations
+Found 4100 valid conversations
+Found 4100 valid conversations
+Found 4100 valid conversations
+Found 4100 valid conversations
+Found 4200 valid conversations
+Found 4200 valid conversations
+Found 4200 valid conversations
+Found 4200 valid conversations
+Found 4200 valid conversations
+Found 4200 valid conversations
+Found 4200 valid conversations
+Found 4200 valid conversations
+Found 4200 valid conversations
+Found 4200 valid conversations
+Found 4200 valid conversations
+Found 4200 valid conversations
+Found 4300 valid conversations
+Found 4300 valid conversations
+Found 4300 valid conversations
+Found 4300 valid conversations
+Found 4300 valid conversations
+Found 4300 valid conversations
+Found 4300 valid conversations
+Found 4300 valid conversations
+Found 4300 valid conversations
+Found 4300 valid conversations
+Found 4300 valid conversations
+Found 4300 valid conversations
+Found 4300 valid conversations
+Found 4300 valid conversations
+Found 4400 valid conversations
+Found 4400 valid conversations
+Found 4400 valid conversations
+Found 4400 valid conversations
+Found 4500 valid conversations
+Found 4500 valid conversations
+Found 4500 valid conversations
+Found 4500 valid conversations
+Found 4500 valid conversations
+Found 4500 valid conversations
+Found 4500 valid conversations
+Found 4500 valid conversations
+Found 4500 valid conversations
+Found 4500 valid conversations
+Found 4500 valid conversations
+Found 4500 valid conversations
+Found 4600 valid conversations
+Found 4600 valid conversations
+Found 4600 valid conversations
+Found 4600 valid conversations
+Found 4600 valid conversations
+Found 4600 valid conversations
+Found 4600 valid conversations
+Found 4600 valid conversations
+Found 4600 valid conversations
+Found 4600 valid conversations
+Found 4600 valid conversations
+Found 4600 valid conversations
+Found 4600 valid conversations
+Found 4700 valid conversations
+Found 4700 valid conversations
+Found 4700 valid conversations
+Found 4700 valid conversations
+Found 4700 valid conversations
+Found 4700 valid conversations
+Found 4700 valid conversations
+Found 4700 valid conversations
+Found 4700 valid conversations
+Found 4700 valid conversations
+Found 4700 valid conversations
+Found 4700 valid conversations
+Found 4700 valid conversations
+Found 4700 valid conversations
+Found 4700 valid conversations
+Found 4800 valid conversations
+Found 4800 valid conversations
+Found 4800 valid conversations
+Found 4800 valid conversations
+Found 4800 valid conversations
+Found 4800 valid conversations
+Found 4800 valid conversations
+Found 4800 valid conversations
+Found 4800 valid conversations
+Found 4800 valid conversations
+Found 4800 valid conversations
+Found 4800 valid conversations
+Found 4800 valid conversations
+Found 4900 valid conversations
+Found 4900 valid conversations
+Found 4900 valid conversations
+Found 4900 valid conversations
+Found 5000 valid conversations
+Found 5000 valid conversations
+Found 5000 valid conversations
+Found 5000 valid conversations
+Found 5000 valid conversations
+Found 5000 valid conversations
+Found 5000 valid conversations
+Found 5000 valid conversations
+Found 5000 valid conversations
+Found 5000 valid conversations
+Found 5000 valid conversations
+Found 5000 valid conversations
+Found 5100 valid conversations
+Found 5100 valid conversations
+Found 5100 valid conversations
+Found 5100 valid conversations
+Found 5100 valid conversations
+Found 5200 valid conversations
+Found 5200 valid conversations
+Found 5200 valid conversations
+Found 5200 valid conversations
+Found 5200 valid conversations
+Found 5200 valid conversations
+Found 5200 valid conversations
+Found 5200 valid conversations
+Found 5200 valid conversations
+Found 5300 valid conversations
+Found 5300 valid conversations
+Found 5300 valid conversations
+Found 5300 valid conversations
+Found 5300 valid conversations
+Found 5400 valid conversations
+Found 5400 valid conversations
+Found 5400 valid conversations
+Found 5400 valid conversations
+Found 5400 valid conversations
+Found 5400 valid conversations
+Found 5400 valid conversations
+Found 5400 valid conversations
+Found 5400 valid conversations
+Found 5400 valid conversations
+Found 5400 valid conversations
+Found 5400 valid conversations
+Found 5500 valid conversations
+Found 5500 valid conversations
+Found 5500 valid conversations
+Found 5500 valid conversations
+Found 5500 valid conversations
+Found 5500 valid conversations
+Found 5500 valid conversations
+Found 5500 valid conversations
+Found 5500 valid conversations
+Found 5500 valid conversations
+Found 5500 valid conversations
+Found 5500 valid conversations
+Found 5600 valid conversations
+Found 5600 valid conversations
+Found 5600 valid conversations
+Found 5600 valid conversations
+Found 5700 valid conversations
+Found 5700 valid conversations
+Found 5700 valid conversations
+Found 5700 valid conversations
+Found 5700 valid conversations
+Found 5700 valid conversations
+Found 5700 valid conversations
+Found 5700 valid conversations
+Found 5700 valid conversations
+Found 5700 valid conversations
+Found 5700 valid conversations
+Found 5700 valid conversations
+Found 5800 valid conversations
+Found 5800 valid conversations
+Found 5800 valid conversations
+Found 5800 valid conversations
+Found 5900 valid conversations
+Found 5900 valid conversations
+Found 5900 valid conversations
+Found 5900 valid conversations
+Found 6000 valid conversations
+Found 6000 valid conversations
+Found 6000 valid conversations
+Found 6000 valid conversations
+Found 6000 valid conversations
+Found 6100 valid conversations
+Found 6100 valid conversations
+Found 6100 valid conversations
+Found 6100 valid conversations
+Found 6200 valid conversations
+Found 6200 valid conversations
+Found 6200 valid conversations
+Found 6200 valid conversations
+Found 6300 valid conversations
+Found 6300 valid conversations
+Found 6300 valid conversations
+Found 6300 valid conversations
+Found 6400 valid conversations
+Found 6400 valid conversations
+Found 6400 valid conversations
+Found 6400 valid conversations
+Found 6500 valid conversations
+Found 6500 valid conversations
+Found 6500 valid conversations
+Found 6500 valid conversations
+Found 6500 valid conversations
+Found 6500 valid conversations
+Found 6500 valid conversations
+Found 6500 valid conversations
+Found 6500 valid conversations
+Found 6500 valid conversations
+Found 6500 valid conversations
+Found 6500 valid conversations
+Found 6600 valid conversations
+Found 6600 valid conversations
+Found 6600 valid conversations
+Found 6600 valid conversations
+Found 6600 valid conversations
+Found 6600 valid conversations
+Found 6600 valid conversations
+Found 6600 valid conversations
+Found 6600 valid conversations
+Found 6600 valid conversations
+Found 6600 valid conversations
+Found 6600 valid conversations
+Found 6700 valid conversations
+Found 6700 valid conversations
+Found 6700 valid conversations
+Found 6700 valid conversations
+Found 6800 valid conversations
+Found 6800 valid conversations
+Found 6800 valid conversations
+Found 6800 valid conversations
+Found 6900 valid conversations
+Found 6900 valid conversations
+Found 6900 valid conversations
+Found 6900 valid conversations
+Found 7000 valid conversations
+Found 7000 valid conversations
+Found 7000 valid conversations
+Found 7000 valid conversations
+Found 7100 valid conversations
+Found 7100 valid conversations
+Found 7100 valid conversations
+Found 7100 valid conversations
+Found 7200 valid conversations
+Found 7200 valid conversations
+Found 7200 valid conversations
+Found 7200 valid conversations
+Found 7200 valid conversations
+Found 7200 valid conversations
+Found 7200 valid conversations
+Found 7200 valid conversations
+Found 7200 valid conversations
+Found 7200 valid conversations
+Found 7200 valid conversations
+Found 7200 valid conversations
+Found 7300 valid conversations
+Found 7300 valid conversations
+Found 7300 valid conversations
+Found 7300 valid conversations
+Found 7400 valid conversations
+Found 7400 valid conversations
+Found 7400 valid conversations
+Found 7400 valid conversations
+Found 7400 valid conversations
+Found 7400 valid conversations
+Found 7400 valid conversations
+Found 7400 valid conversations
+Found 7400 valid conversations
+Found 7400 valid conversations
+Found 7400 valid conversations
+Found 7400 valid conversations
+Found 7500 valid conversations
+Found 7500 valid conversations
+Found 7500 valid conversations
+Found 7500 valid conversations
+Found 7500 valid conversations
+Found 7500 valid conversations
+Found 7500 valid conversations
+Found 7500 valid conversations
+Found 7500 valid conversations
+Found 7600 valid conversations
+Found 7600 valid conversations
+Found 7600 valid conversations
+Found 7600 valid conversations
+Found 7600 valid conversations
+Found 7600 valid conversations
+Found 7600 valid conversations
+Found 7600 valid conversations
+Found 7600 valid conversations
+Found 7700 valid conversations
+Found 7700 valid conversations
+Found 7700 valid conversations
+Found 7700 valid conversations
+Found 7700 valid conversations
+Found 7700 valid conversations
+Found 7700 valid conversations
+Found 7700 valid conversations
+Found 7700 valid conversations
+Found 7800 valid conversations
+Found 7800 valid conversations
+Found 7800 valid conversations
+Found 7800 valid conversations
+Found 7800 valid conversations
+Found 7800 valid conversations
+Found 7800 valid conversations
+Found 7800 valid conversations
+Found 7800 valid conversations
+Found 7800 valid conversations
+Found 7900 valid conversations
+Found 7900 valid conversations
+Found 7900 valid conversations
+Found 7900 valid conversations
+Found 7900 valid conversations
+Found 7900 valid conversations
+Found 7900 valid conversations
+Found 7900 valid conversations
+Found 7900 valid conversations
+Found 8000 valid conversations
+Found 8000 valid conversations
+Found 8000 valid conversations
+Found 8000 valid conversations
+Found 8000 valid conversations
+Found 8000 valid conversations
+Found 8000 valid conversations
+Found 8000 valid conversations
+Found 8000 valid conversations
+Found 8000 valid conversations
+Found 8000 valid conversations
+Found 8000 valid conversations
+Found 8100 valid conversations
+Found 8100 valid conversations
+Found 8100 valid conversations
+Found 8100 valid conversations
+Found 8200 valid conversations
+Found 8200 valid conversations
+Found 8200 valid conversations
+Found 8200 valid conversations
+Found 8300 valid conversations
+Found 8300 valid conversations
+Found 8300 valid conversations
+Found 8300 valid conversations
+Found 8300 valid conversations
+Found 8300 valid conversations
+Found 8300 valid conversations
+Found 8300 valid conversations
+Found 8300 valid conversations
+Found 8300 valid conversations
+Found 8300 valid conversations
+Found 8300 valid conversations
+Found 8300 valid conversations
+Found 8300 valid conversations
+Found 8300 valid conversations
+Found 8300 valid conversations
+Found 8400 valid conversations
+Found 8400 valid conversations
+Found 8400 valid conversations
+Found 8400 valid conversations
+Found 8400 valid conversations
+Found 8400 valid conversations
+Found 8400 valid conversations
+Found 8400 valid conversations
+Found 8400 valid conversations
+Found 8400 valid conversations
+Found 8400 valid conversations
+Found 8400 valid conversations
+Found 8500 valid conversations
+Found 8500 valid conversations
+Found 8500 valid conversations
+Found 8500 valid conversations
+Found 8500 valid conversations
+Found 8500 valid conversations
+Found 8500 valid conversations
+Found 8500 valid conversations
+Found 8500 valid conversations
+Found 8500 valid conversations
+Found 8500 valid conversations
+Found 8500 valid conversations
+Found 8500 valid conversations
+Found 8600 valid conversations
+Found 8600 valid conversations
+Found 8600 valid conversations
+Found 8600 valid conversations
+Found 8600 valid conversations
+Found 8600 valid conversations
+Found 8600 valid conversations
+Found 8600 valid conversations
+Found 8600 valid conversations
+Found 8600 valid conversations
+Found 8600 valid conversations
+Found 8600 valid conversations
+Found 8600 valid conversations
+Found 8700 valid conversations
+Found 8700 valid conversations
+Found 8700 valid conversations
+Found 8700 valid conversations
+Found 8700 valid conversations
+Found 8700 valid conversations
+Found 8700 valid conversations
+Found 8700 valid conversations
+Found 8700 valid conversations
+Found 8700 valid conversations
+Found 8700 valid conversations
+Found 8700 valid conversations
+Found 8700 valid conversations
+Found 8800 valid conversations
+Found 8800 valid conversations
+Found 8800 valid conversations
+Found 8800 valid conversations
+Found 8800 valid conversations
+Found 8800 valid conversations
+Found 8800 valid conversations
+Found 8800 valid conversations
+Found 8800 valid conversations
+Found 8800 valid conversations
+Found 8800 valid conversations
+Found 8800 valid conversations
+Found 8900 valid conversations
+Found 8900 valid conversations
+Found 8900 valid conversations
+Found 8900 valid conversations
+Found 8900 valid conversations
+Found 8900 valid conversations
+Found 8900 valid conversations
+Found 8900 valid conversations
+Found 8900 valid conversations
+Found 8900 valid conversations
+Found 8900 valid conversations
+Found 8900 valid conversations
+Found 9000 valid conversations
+Found 9000 valid conversations
+Found 9000 valid conversations
+Found 9000 valid conversations
+Found 9000 valid conversations
+Found 9000 valid conversations
+Found 9000 valid conversations
+Found 9000 valid conversations
+Found 9000 valid conversations
+Found 9000 valid conversations
+Found 9000 valid conversations
+Found 9000 valid conversations
+Found 9000 valid conversations
+Found 9000 valid conversations
+Found 9000 valid conversations
+Found 9000 valid conversations
+Found 9000 valid conversations
+Found 9100 valid conversations
+Found 9100 valid conversations
+Found 9100 valid conversations
+Found 9100 valid conversations
+Found 9100 valid conversations
+Found 9100 valid conversations
+Found 9100 valid conversations
+Found 9100 valid conversations
+Found 9100 valid conversations
+Found 9100 valid conversations
+Found 9100 valid conversations
+Found 9100 valid conversations
+Found 9200 valid conversations
+Found 9200 valid conversations
+Found 9200 valid conversations
+Found 9200 valid conversations
+Found 9200 valid conversations
+Found 9200 valid conversations
+Found 9200 valid conversations
+Found 9200 valid conversations
+Found 9200 valid conversations
+Found 9200 valid conversations
+Found 9200 valid conversations
+Found 9200 valid conversations
+Found 9300 valid conversations
+Found 9300 valid conversations
+Found 9300 valid conversations
+Found 9300 valid conversations
+Found 9300 valid conversations
+Found 9300 valid conversations
+Found 9300 valid conversations
+Found 9300 valid conversations
+Found 9300 valid conversations
+Found 9300 valid conversations
+Found 9300 valid conversations
+Found 9300 valid conversations
+Found 9300 valid conversations
+Found 9400 valid conversations
+Found 9400 valid conversations
+Found 9400 valid conversations
+Found 9400 valid conversations
+Found 9400 valid conversations
+Found 9400 valid conversations
+Found 9400 valid conversations
+Found 9400 valid conversations
+Found 9400 valid conversations
+Found 9400 valid conversations
+Found 9400 valid conversations
+Found 9400 valid conversations
+Found 9400 valid conversations
+Found 9400 valid conversations
+Found 9500 valid conversations
+Found 9500 valid conversations
+Found 9500 valid conversations
+Found 9500 valid conversations
+Found 9600 valid conversations
+Found 9600 valid conversations
+Found 9600 valid conversations
+Found 9600 valid conversations
+Found 9700 valid conversations
+Found 9700 valid conversations
+Found 9700 valid conversations
+Found 9700 valid conversations
+Found 9800 valid conversations
+Found 9800 valid conversations
+Found 9800 valid conversations
+Found 9800 valid conversations
+Final dataset size: 9846 conversations
+Converting train dataset to ChatML: 100%|█| 9846/9846 [00:00<00:00, 43796.50 exa
+Applying chat template to train dataset: 100%|█| 9846/9846 [00:00<00:00, 41975.1
+Tokenizing train dataset:   0%|                 | 0/9846 [00:00<?, ? examples/s]Token indices sequence length is longer than the specified maximum sequence length for this model (2362 > 2048). Running this sequence through the model will result in indexing errors
+Tokenizing train dataset: 100%|█████| 9846/9846 [00:10<00:00, 959.89 examples/s]
+Truncating train dataset: 100%|████| 9846/9846 [00:04<00:00, 2183.83 examples/s]
+  0%|                                                   | 0/500 [00:00<?, ?it/s]/usr/local/lib/python3.10/dist-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+{'loss': 1.8609, 'grad_norm': 0.3845728635787964, 'learning_rate': 0.0001996, 'mean_token_accuracy': 0.6043543815612793, 'epoch': 0.0}
+{'loss': 1.7953, 'grad_norm': 0.4672973155975342, 'learning_rate': 0.00019920000000000002, 'mean_token_accuracy': 0.6393643021583557, 'epoch': 0.0}
+{'loss': 1.4037, 'grad_norm': 0.30721840262413025, 'learning_rate': 0.0001988, 'mean_token_accuracy': 0.6509562730789185, 'epoch': 0.0}
+{'loss': 1.9464, 'grad_norm': 0.39737483859062195, 'learning_rate': 0.0001984, 'mean_token_accuracy': 0.5689243078231812, 'epoch': 0.0}
+{'loss': 2.2997, 'grad_norm': 0.5812404751777649, 'learning_rate': 0.00019800000000000002, 'mean_token_accuracy': 0.5459558963775635, 'epoch': 0.0}
+{'loss': 1.5729, 'grad_norm': 0.3122961223125458, 'learning_rate': 0.0001976, 'mean_token_accuracy': 0.6496894359588623, 'epoch': 0.0}
+{'loss': 1.794, 'grad_norm': 0.4448060691356659, 'learning_rate': 0.0001972, 'mean_token_accuracy': 0.6452623605728149, 'epoch': 0.0}
+{'loss': 1.9962, 'grad_norm': 0.4866829514503479, 'learning_rate': 0.0001968, 'mean_token_accuracy': 0.5957607626914978, 'epoch': 0.0}
+{'loss': 1.9776, 'grad_norm': 0.566916823387146, 'learning_rate': 0.0001964, 'mean_token_accuracy': 0.5507584810256958, 'epoch': 0.0}
+{'loss': 2.4759, 'grad_norm': 0.6574249267578125, 'learning_rate': 0.000196, 'mean_token_accuracy': 0.5366336703300476, 'epoch': 0.0}
+{'loss': 1.7309, 'grad_norm': 0.4524320363998413, 'learning_rate': 0.0001956, 'mean_token_accuracy': 0.5752823352813721, 'epoch': 0.0}
+{'loss': 1.7814, 'grad_norm': 0.6204828023910522, 'learning_rate': 0.0001952, 'mean_token_accuracy': 0.6239224076271057, 'epoch': 0.0}
+{'loss': 2.4584, 'grad_norm': 0.7595605850219727, 'learning_rate': 0.0001948, 'mean_token_accuracy': 0.5056818127632141, 'epoch': 0.01}
+{'loss': 1.5035, 'grad_norm': 0.5909355878829956, 'learning_rate': 0.0001944, 'mean_token_accuracy': 0.6724709868431091, 'epoch': 0.01}
+{'loss': 2.2671, 'grad_norm': 0.7307729721069336, 'learning_rate': 0.000194, 'mean_token_accuracy': 0.5247666835784912, 'epoch': 0.01}
+{'loss': 2.1734, 'grad_norm': 0.552201509475708, 'learning_rate': 0.00019360000000000002, 'mean_token_accuracy': 0.5059288740158081, 'epoch': 0.01}
+{'loss': 1.708, 'grad_norm': 0.7094812393188477, 'learning_rate': 0.0001932, 'mean_token_accuracy': 0.5702325701713562, 'epoch': 0.01}
+{'loss': 1.5432, 'grad_norm': 0.8724465370178223, 'learning_rate': 0.0001928, 'mean_token_accuracy': 0.6183369159698486, 'epoch': 0.01}
+{'loss': 1.2967, 'grad_norm': 0.6445664763450623, 'learning_rate': 0.00019240000000000001, 'mean_token_accuracy': 0.6712108850479126, 'epoch': 0.01}
+{'loss': 2.7189, 'grad_norm': 0.8671346306800842, 'learning_rate': 0.000192, 'mean_token_accuracy': 0.5226710438728333, 'epoch': 0.01}
+{'loss': 1.9999, 'grad_norm': 1.3052332401275635, 'learning_rate': 0.0001916, 'mean_token_accuracy': 0.5776081681251526, 'epoch': 0.01}
+{'loss': 1.4276, 'grad_norm': 0.6425812840461731, 'learning_rate': 0.0001912, 'mean_token_accuracy': 0.6781677603721619, 'epoch': 0.01}
+{'loss': 2.2564, 'grad_norm': 0.8754334449768066, 'learning_rate': 0.0001908, 'mean_token_accuracy': 0.5721649527549744, 'epoch': 0.01}
+{'loss': 1.6407, 'grad_norm': 0.6776617169380188, 'learning_rate': 0.0001904, 'mean_token_accuracy': 0.6422845721244812, 'epoch': 0.01}
+{'loss': 2.3036, 'grad_norm': 0.9690341353416443, 'learning_rate': 0.00019, 'mean_token_accuracy': 0.5125899314880371, 'epoch': 0.01}
+{'loss': 1.448, 'grad_norm': 0.5835464000701904, 'learning_rate': 0.0001896, 'mean_token_accuracy': 0.6455331444740295, 'epoch': 0.01}
+{'loss': 2.4431, 'grad_norm': 0.9837934970855713, 'learning_rate': 0.0001892, 'mean_token_accuracy': 0.5, 'epoch': 0.01}
+{'loss': 1.5101, 'grad_norm': 0.5719797611236572, 'learning_rate': 0.0001888, 'mean_token_accuracy': 0.6072131395339966, 'epoch': 0.01}
+{'loss': 1.6372, 'grad_norm': 0.5649750828742981, 'learning_rate': 0.0001884, 'mean_token_accuracy': 0.5955055952072144, 'epoch': 0.01}
+{'loss': 1.5405, 'grad_norm': 0.7563426494598389, 'learning_rate': 0.000188, 'mean_token_accuracy': 0.5997458696365356, 'epoch': 0.01}
+{'loss': 2.5461, 'grad_norm': 0.9970582127571106, 'learning_rate': 0.0001876, 'mean_token_accuracy': 0.4897959232330322, 'epoch': 0.01}
+{'loss': 2.1182, 'grad_norm': 0.7950806021690369, 'learning_rate': 0.00018720000000000002, 'mean_token_accuracy': 0.5535513162612915, 'epoch': 0.01}
+{'loss': 1.5557, 'grad_norm': 0.5774812698364258, 'learning_rate': 0.00018680000000000001, 'mean_token_accuracy': 0.6231203079223633, 'epoch': 0.01}
+{'loss': 1.5449, 'grad_norm': 0.5105137228965759, 'learning_rate': 0.00018640000000000003, 'mean_token_accuracy': 0.628484845161438, 'epoch': 0.01}
+{'loss': 1.5695, 'grad_norm': 0.5985493659973145, 'learning_rate': 0.00018600000000000002, 'mean_token_accuracy': 0.6357142925262451, 'epoch': 0.01}
+{'loss': 2.2777, 'grad_norm': 0.8528655171394348, 'learning_rate': 0.0001856, 'mean_token_accuracy': 0.5363636612892151, 'epoch': 0.01}
+{'loss': 1.4783, 'grad_norm': 0.6631805300712585, 'learning_rate': 0.00018520000000000003, 'mean_token_accuracy': 0.6384040117263794, 'epoch': 0.02}
+{'loss': 1.6701, 'grad_norm': 0.49492132663726807, 'learning_rate': 0.00018480000000000002, 'mean_token_accuracy': 0.628166913986206, 'epoch': 0.02}
+{'loss': 1.2385, 'grad_norm': 0.5368072390556335, 'learning_rate': 0.0001844, 'mean_token_accuracy': 0.683584451675415, 'epoch': 0.02}
+{'loss': 1.3837, 'grad_norm': 0.5679526925086975, 'learning_rate': 0.00018400000000000003, 'mean_token_accuracy': 0.6514285802841187, 'epoch': 0.02}
+{'loss': 1.9529, 'grad_norm': 0.5232454538345337, 'learning_rate': 0.00018360000000000002, 'mean_token_accuracy': 0.5706595182418823, 'epoch': 0.02}
+{'loss': 1.6793, 'grad_norm': 0.7770516872406006, 'learning_rate': 0.0001832, 'mean_token_accuracy': 0.5463215112686157, 'epoch': 0.02}
+{'loss': 1.8699, 'grad_norm': 0.44130557775497437, 'learning_rate': 0.00018280000000000003, 'mean_token_accuracy': 0.578134298324585, 'epoch': 0.02}
+{'loss': 2.3993, 'grad_norm': 1.0371891260147095, 'learning_rate': 0.00018240000000000002, 'mean_token_accuracy': 0.5037146806716919, 'epoch': 0.02}
+{'loss': 1.8896, 'grad_norm': 0.7739485502243042, 'learning_rate': 0.000182, 'mean_token_accuracy': 0.559374988079071, 'epoch': 0.02}
+{'loss': 2.2994, 'grad_norm': 0.7891684174537659, 'learning_rate': 0.00018160000000000002, 'mean_token_accuracy': 0.5243757367134094, 'epoch': 0.02}
+{'loss': 1.5731, 'grad_norm': 0.801612138748169, 'learning_rate': 0.0001812, 'mean_token_accuracy': 0.609929084777832, 'epoch': 0.02}
+{'loss': 1.9053, 'grad_norm': 0.998288631439209, 'learning_rate': 0.0001808, 'mean_token_accuracy': 0.5803921818733215, 'epoch': 0.02}
+{'loss': 2.0439, 'grad_norm': 0.9152573347091675, 'learning_rate': 0.00018040000000000002, 'mean_token_accuracy': 0.5421585440635681, 'epoch': 0.02}
+{'loss': 1.4082, 'grad_norm': 0.7346398234367371, 'learning_rate': 0.00018, 'mean_token_accuracy': 0.6793003082275391, 'epoch': 0.02}
+{'loss': 1.6135, 'grad_norm': 0.6187900900840759, 'learning_rate': 0.0001796, 'mean_token_accuracy': 0.6747967600822449, 'epoch': 0.02}
+{'loss': 1.5823, 'grad_norm': 0.5656566023826599, 'learning_rate': 0.00017920000000000002, 'mean_token_accuracy': 0.644528329372406, 'epoch': 0.02}
+{'loss': 2.049, 'grad_norm': 0.6886637210845947, 'learning_rate': 0.0001788, 'mean_token_accuracy': 0.5349345207214355, 'epoch': 0.02}
+{'loss': 1.8448, 'grad_norm': 0.6958225965499878, 'learning_rate': 0.0001784, 'mean_token_accuracy': 0.5867480635643005, 'epoch': 0.02}
+{'loss': 2.2124, 'grad_norm': 0.6953268051147461, 'learning_rate': 0.00017800000000000002, 'mean_token_accuracy': 0.5624461770057678, 'epoch': 0.02}
+{'loss': 1.9048, 'grad_norm': 0.8306882977485657, 'learning_rate': 0.0001776, 'mean_token_accuracy': 0.6071044206619263, 'epoch': 0.02}
+{'loss': 2.1188, 'grad_norm': 0.8166681528091431, 'learning_rate': 0.0001772, 'mean_token_accuracy': 0.5429252982139587, 'epoch': 0.02}
+{'loss': 2.5372, 'grad_norm': 1.0491080284118652, 'learning_rate': 0.00017680000000000001, 'mean_token_accuracy': 0.5129683017730713, 'epoch': 0.02}
+{'loss': 2.1777, 'grad_norm': 2.182346820831299, 'learning_rate': 0.0001764, 'mean_token_accuracy': 0.5577830076217651, 'epoch': 0.02}
+{'loss': 1.1246, 'grad_norm': 0.6569851636886597, 'learning_rate': 0.00017600000000000002, 'mean_token_accuracy': 0.6558659076690674, 'epoch': 0.02}
+{'loss': 1.902, 'grad_norm': 0.7050721645355225, 'learning_rate': 0.0001756, 'mean_token_accuracy': 0.5838761925697327, 'epoch': 0.02}
+{'loss': 1.6247, 'grad_norm': 0.6851859092712402, 'learning_rate': 0.0001752, 'mean_token_accuracy': 0.619369387626648, 'epoch': 0.03}
+{'loss': 1.9359, 'grad_norm': 0.833591103553772, 'learning_rate': 0.00017480000000000002, 'mean_token_accuracy': 0.5970516204833984, 'epoch': 0.03}
+{'loss': 1.6486, 'grad_norm': 0.50384122133255, 'learning_rate': 0.0001744, 'mean_token_accuracy': 0.6016898155212402, 'epoch': 0.03}
+{'loss': 2.2507, 'grad_norm': 0.6531440615653992, 'learning_rate': 0.000174, 'mean_token_accuracy': 0.4987789988517761, 'epoch': 0.03}
+{'loss': 2.1025, 'grad_norm': 0.5888428688049316, 'learning_rate': 0.00017360000000000002, 'mean_token_accuracy': 0.5811032056808472, 'epoch': 0.03}
+{'loss': 2.1812, 'grad_norm': 0.571000337600708, 'learning_rate': 0.0001732, 'mean_token_accuracy': 0.5754098296165466, 'epoch': 0.03}
+{'loss': 1.5703, 'grad_norm': 0.4649520814418793, 'learning_rate': 0.0001728, 'mean_token_accuracy': 0.5534290075302124, 'epoch': 0.03}
+{'loss': 1.8965, 'grad_norm': 0.6861556172370911, 'learning_rate': 0.00017240000000000002, 'mean_token_accuracy': 0.5905707478523254, 'epoch': 0.03}
+{'loss': 1.14, 'grad_norm': 0.4755760729312897, 'learning_rate': 0.000172, 'mean_token_accuracy': 0.70703125, 'epoch': 0.03}
+{'loss': 1.7267, 'grad_norm': 1.8699477910995483, 'learning_rate': 0.0001716, 'mean_token_accuracy': 0.6468172669410706, 'epoch': 0.03}
+{'loss': 1.5741, 'grad_norm': 0.7289084196090698, 'learning_rate': 0.00017120000000000001, 'mean_token_accuracy': 0.5953693389892578, 'epoch': 0.03}
+{'loss': 1.9713, 'grad_norm': 0.6103364825248718, 'learning_rate': 0.0001708, 'mean_token_accuracy': 0.5852272510528564, 'epoch': 0.03}
+{'loss': 1.6234, 'grad_norm': 0.6200012564659119, 'learning_rate': 0.0001704, 'mean_token_accuracy': 0.5937202572822571, 'epoch': 0.03}
+{'loss': 1.9912, 'grad_norm': 0.645113468170166, 'learning_rate': 0.00017, 'mean_token_accuracy': 0.5781853199005127, 'epoch': 0.03}
+{'loss': 1.8937, 'grad_norm': 0.41809239983558655, 'learning_rate': 0.0001696, 'mean_token_accuracy': 0.55430006980896, 'epoch': 0.03}
+{'loss': 1.6799, 'grad_norm': 0.5230017900466919, 'learning_rate': 0.0001692, 'mean_token_accuracy': 0.620039701461792, 'epoch': 0.03}
+{'loss': 1.747, 'grad_norm': 0.37242355942726135, 'learning_rate': 0.0001688, 'mean_token_accuracy': 0.6248499155044556, 'epoch': 0.03}
+{'loss': 2.1679, 'grad_norm': 0.6904661059379578, 'learning_rate': 0.0001684, 'mean_token_accuracy': 0.542553186416626, 'epoch': 0.03}
+{'loss': 1.6145, 'grad_norm': 0.39313405752182007, 'learning_rate': 0.000168, 'mean_token_accuracy': 0.5836431384086609, 'epoch': 0.03}
+{'loss': 2.3184, 'grad_norm': 0.8658220171928406, 'learning_rate': 0.0001676, 'mean_token_accuracy': 0.5465753674507141, 'epoch': 0.03}
+{'loss': 2.2358, 'grad_norm': 0.6386793255805969, 'learning_rate': 0.0001672, 'mean_token_accuracy': 0.5774487257003784, 'epoch': 0.03}
+{'loss': 1.7035, 'grad_norm': 0.4400166869163513, 'learning_rate': 0.0001668, 'mean_token_accuracy': 0.6022727489471436, 'epoch': 0.03}
+{'loss': 2.2721, 'grad_norm': 0.7191455960273743, 'learning_rate': 0.0001664, 'mean_token_accuracy': 0.5551601648330688, 'epoch': 0.03}
+{'loss': 2.6939, 'grad_norm': 1.0486592054367065, 'learning_rate': 0.000166, 'mean_token_accuracy': 0.5035714507102966, 'epoch': 0.03}
+{'loss': 1.8405, 'grad_norm': 0.5019547343254089, 'learning_rate': 0.0001656, 'mean_token_accuracy': 0.597744345664978, 'epoch': 0.03}
+{'loss': 1.5433, 'grad_norm': 0.4826049208641052, 'learning_rate': 0.0001652, 'mean_token_accuracy': 0.6200762391090393, 'epoch': 0.04}
+{'loss': 2.0398, 'grad_norm': 1.008514642715454, 'learning_rate': 0.0001648, 'mean_token_accuracy': 0.5647059082984924, 'epoch': 0.04}
+{'loss': 2.6652, 'grad_norm': 0.6869838237762451, 'learning_rate': 0.0001644, 'mean_token_accuracy': 0.4830508530139923, 'epoch': 0.04}
+{'loss': 0.8775, 'grad_norm': 0.41709235310554504, 'learning_rate': 0.000164, 'mean_token_accuracy': 0.758310854434967, 'epoch': 0.04}
+{'loss': 1.4413, 'grad_norm': 0.500283420085907, 'learning_rate': 0.0001636, 'mean_token_accuracy': 0.6784989833831787, 'epoch': 0.04}
+{'loss': 2.4493, 'grad_norm': 0.8150618076324463, 'learning_rate': 0.0001632, 'mean_token_accuracy': 0.5212399363517761, 'epoch': 0.04}
+{'loss': 2.71, 'grad_norm': 1.2022607326507568, 'learning_rate': 0.0001628, 'mean_token_accuracy': 0.49840256571769714, 'epoch': 0.04}
+{'loss': 1.4752, 'grad_norm': 0.45404723286628723, 'learning_rate': 0.00016240000000000002, 'mean_token_accuracy': 0.5908706784248352, 'epoch': 0.04}
+{'loss': 1.8136, 'grad_norm': 0.5362124443054199, 'learning_rate': 0.000162, 'mean_token_accuracy': 0.5943526029586792, 'epoch': 0.04}
+{'loss': 2.5205, 'grad_norm': 0.5575835108757019, 'learning_rate': 0.00016160000000000002, 'mean_token_accuracy': 0.4896296262741089, 'epoch': 0.04}
+{'loss': 1.8812, 'grad_norm': 0.6266001462936401, 'learning_rate': 0.00016120000000000002, 'mean_token_accuracy': 0.5958333611488342, 'epoch': 0.04}
+{'loss': 1.3198, 'grad_norm': 0.4707188606262207, 'learning_rate': 0.0001608, 'mean_token_accuracy': 0.6691358089447021, 'epoch': 0.04}
+{'loss': 1.3209, 'grad_norm': 0.3724934160709381, 'learning_rate': 0.00016040000000000002, 'mean_token_accuracy': 0.6161616444587708, 'epoch': 0.04}
+{'loss': 2.4337, 'grad_norm': 0.6275137662887573, 'learning_rate': 0.00016, 'mean_token_accuracy': 0.523858904838562, 'epoch': 0.04}
+ 20%|███████▊                               | 100/500 [18:13<1:17:55, 11.69s/it]/usr/local/lib/python3.10/dist-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+{'loss': 1.4262, 'grad_norm': 0.5257052183151245, 'learning_rate': 0.0001596, 'mean_token_accuracy': 0.6422447562217712, 'epoch': 0.04}
+{'loss': 1.5775, 'grad_norm': 0.6115832328796387, 'learning_rate': 0.00015920000000000002, 'mean_token_accuracy': 0.5576441287994385, 'epoch': 0.04}
+{'loss': 1.622, 'grad_norm': 0.5892643928527832, 'learning_rate': 0.0001588, 'mean_token_accuracy': 0.6451612710952759, 'epoch': 0.04}
+{'loss': 1.5774, 'grad_norm': 0.44995298981666565, 'learning_rate': 0.00015840000000000003, 'mean_token_accuracy': 0.625683069229126, 'epoch': 0.04}
+{'loss': 1.4281, 'grad_norm': 0.4600789546966553, 'learning_rate': 0.00015800000000000002, 'mean_token_accuracy': 0.6239242553710938, 'epoch': 0.04}
+{'loss': 2.2018, 'grad_norm': 0.5874086618423462, 'learning_rate': 0.0001576, 'mean_token_accuracy': 0.524547815322876, 'epoch': 0.04}
+{'loss': 3.2909, 'grad_norm': 0.7008640766143799, 'learning_rate': 0.00015720000000000003, 'mean_token_accuracy': 0.4100204408168793, 'epoch': 0.04}
+{'loss': 1.5397, 'grad_norm': 0.4886006712913513, 'learning_rate': 0.00015680000000000002, 'mean_token_accuracy': 0.6181254982948303, 'epoch': 0.04}
+{'loss': 1.708, 'grad_norm': 0.5312120318412781, 'learning_rate': 0.0001564, 'mean_token_accuracy': 0.6008510589599609, 'epoch': 0.04}
+{'loss': 1.4704, 'grad_norm': 0.6375743746757507, 'learning_rate': 0.00015600000000000002, 'mean_token_accuracy': 0.6642599105834961, 'epoch': 0.04}
+{'loss': 2.0768, 'grad_norm': 0.4147050380706787, 'learning_rate': 0.00015560000000000001, 'mean_token_accuracy': 0.5518672466278076, 'epoch': 0.05}
+{'loss': 2.349, 'grad_norm': 0.694010853767395, 'learning_rate': 0.0001552, 'mean_token_accuracy': 0.5550611615180969, 'epoch': 0.05}
+{'loss': 1.1868, 'grad_norm': 0.5248298048973083, 'learning_rate': 0.00015480000000000002, 'mean_token_accuracy': 0.6477987170219421, 'epoch': 0.05}
+{'loss': 1.5069, 'grad_norm': 0.41597890853881836, 'learning_rate': 0.0001544, 'mean_token_accuracy': 0.6307142972946167, 'epoch': 0.05}
+{'loss': 1.3682, 'grad_norm': 0.42210111021995544, 'learning_rate': 0.000154, 'mean_token_accuracy': 0.6976016759872437, 'epoch': 0.05}
+{'loss': 1.7045, 'grad_norm': 0.5305161476135254, 'learning_rate': 0.00015360000000000002, 'mean_token_accuracy': 0.6449044346809387, 'epoch': 0.05}
+{'loss': 1.8368, 'grad_norm': 0.5653702616691589, 'learning_rate': 0.0001532, 'mean_token_accuracy': 0.6275468468666077, 'epoch': 0.05}
+{'loss': 1.7773, 'grad_norm': 0.4624391794204712, 'learning_rate': 0.0001528, 'mean_token_accuracy': 0.5546640157699585, 'epoch': 0.05}
+{'loss': 1.373, 'grad_norm': 0.4702484607696533, 'learning_rate': 0.00015240000000000002, 'mean_token_accuracy': 0.6342443823814392, 'epoch': 0.05}
+{'loss': 1.7733, 'grad_norm': 0.46632519364356995, 'learning_rate': 0.000152, 'mean_token_accuracy': 0.570999264717102, 'epoch': 0.05}
+{'loss': 2.0792, 'grad_norm': 0.5261774063110352, 'learning_rate': 0.0001516, 'mean_token_accuracy': 0.569531261920929, 'epoch': 0.05}
+{'loss': 1.7873, 'grad_norm': 0.4208192229270935, 'learning_rate': 0.00015120000000000002, 'mean_token_accuracy': 0.6214788556098938, 'epoch': 0.05}
+{'loss': 1.4, 'grad_norm': 0.48081687092781067, 'learning_rate': 0.0001508, 'mean_token_accuracy': 0.6669565439224243, 'epoch': 0.05}
+{'loss': 2.7643, 'grad_norm': 0.5326870679855347, 'learning_rate': 0.0001504, 'mean_token_accuracy': 0.4162895977497101, 'epoch': 0.05}
+{'loss': 1.5061, 'grad_norm': 0.3843056559562683, 'learning_rate': 0.00015000000000000001, 'mean_token_accuracy': 0.626192569732666, 'epoch': 0.05}
+{'loss': 1.9089, 'grad_norm': 0.49635133147239685, 'learning_rate': 0.0001496, 'mean_token_accuracy': 0.525083601474762, 'epoch': 0.05}
+{'loss': 1.9993, 'grad_norm': 0.4399074614048004, 'learning_rate': 0.0001492, 'mean_token_accuracy': 0.5816498398780823, 'epoch': 0.05}
+{'loss': 1.2757, 'grad_norm': 0.5270683169364929, 'learning_rate': 0.0001488, 'mean_token_accuracy': 0.7118644118309021, 'epoch': 0.05}
+{'loss': 1.376, 'grad_norm': 0.39034759998321533, 'learning_rate': 0.0001484, 'mean_token_accuracy': 0.6648983359336853, 'epoch': 0.05}
+{'loss': 2.0048, 'grad_norm': 0.4265337288379669, 'learning_rate': 0.000148, 'mean_token_accuracy': 0.6048543453216553, 'epoch': 0.05}
+{'loss': 2.0117, 'grad_norm': 0.7719439268112183, 'learning_rate': 0.0001476, 'mean_token_accuracy': 0.5795918107032776, 'epoch': 0.05}
+{'loss': 2.1263, 'grad_norm': 0.6174979209899902, 'learning_rate': 0.0001472, 'mean_token_accuracy': 0.5707376003265381, 'epoch': 0.05}
+{'loss': 1.8975, 'grad_norm': 0.6610895991325378, 'learning_rate': 0.00014680000000000002, 'mean_token_accuracy': 0.6271721720695496, 'epoch': 0.05}
+{'loss': 1.708, 'grad_norm': 0.4386434853076935, 'learning_rate': 0.0001464, 'mean_token_accuracy': 0.5114309787750244, 'epoch': 0.05}
+{'loss': 1.6193, 'grad_norm': 0.40658530592918396, 'learning_rate': 0.000146, 'mean_token_accuracy': 0.6340956091880798, 'epoch': 0.05}
+{'loss': 1.9306, 'grad_norm': 0.44744059443473816, 'learning_rate': 0.00014560000000000002, 'mean_token_accuracy': 0.6073619723320007, 'epoch': 0.06}
+{'loss': 1.49, 'grad_norm': 0.36481571197509766, 'learning_rate': 0.0001452, 'mean_token_accuracy': 0.6345238089561462, 'epoch': 0.06}
+{'loss': 1.3854, 'grad_norm': 0.40159866213798523, 'learning_rate': 0.0001448, 'mean_token_accuracy': 0.6156351566314697, 'epoch': 0.06}
+{'loss': 2.2235, 'grad_norm': 0.5231136679649353, 'learning_rate': 0.0001444, 'mean_token_accuracy': 0.5484234094619751, 'epoch': 0.06}
+{'loss': 2.2397, 'grad_norm': 0.6674367785453796, 'learning_rate': 0.000144, 'mean_token_accuracy': 0.5550528168678284, 'epoch': 0.06}
+{'loss': 1.4211, 'grad_norm': 0.48023271560668945, 'learning_rate': 0.0001436, 'mean_token_accuracy': 0.6649484634399414, 'epoch': 0.06}
+{'loss': 0.928, 'grad_norm': 0.31427624821662903, 'learning_rate': 0.0001432, 'mean_token_accuracy': 0.747374951839447, 'epoch': 0.06}
+{'loss': 1.8975, 'grad_norm': 0.5604457855224609, 'learning_rate': 0.0001428, 'mean_token_accuracy': 0.5847076177597046, 'epoch': 0.06}
+{'loss': 1.4597, 'grad_norm': 0.49140897393226624, 'learning_rate': 0.0001424, 'mean_token_accuracy': 0.6523476243019104, 'epoch': 0.06}
+{'loss': 2.1227, 'grad_norm': 0.43509018421173096, 'learning_rate': 0.000142, 'mean_token_accuracy': 0.5434243083000183, 'epoch': 0.06}
+{'loss': 1.7755, 'grad_norm': 0.4863080382347107, 'learning_rate': 0.0001416, 'mean_token_accuracy': 0.610990583896637, 'epoch': 0.06}
+{'loss': 1.8477, 'grad_norm': 0.4717440903186798, 'learning_rate': 0.0001412, 'mean_token_accuracy': 0.5580678582191467, 'epoch': 0.06}
+{'loss': 1.9882, 'grad_norm': 0.46599334478378296, 'learning_rate': 0.0001408, 'mean_token_accuracy': 0.5561797618865967, 'epoch': 0.06}
+{'loss': 2.5941, 'grad_norm': 0.6463844180107117, 'learning_rate': 0.0001404, 'mean_token_accuracy': 0.5055401921272278, 'epoch': 0.06}
+{'loss': 1.9914, 'grad_norm': 0.7427744269371033, 'learning_rate': 0.00014, 'mean_token_accuracy': 0.5838926434516907, 'epoch': 0.06}
+{'loss': 1.3095, 'grad_norm': 0.4113830327987671, 'learning_rate': 0.0001396, 'mean_token_accuracy': 0.6803004741668701, 'epoch': 0.06}
+{'loss': 2.5554, 'grad_norm': 0.7448104023933411, 'learning_rate': 0.0001392, 'mean_token_accuracy': 0.48133593797683716, 'epoch': 0.06}
+{'loss': 1.1839, 'grad_norm': 0.36143508553504944, 'learning_rate': 0.00013879999999999999, 'mean_token_accuracy': 0.6772024035453796, 'epoch': 0.06}
+{'loss': 2.0487, 'grad_norm': 0.9109667539596558, 'learning_rate': 0.0001384, 'mean_token_accuracy': 0.5737704634666443, 'epoch': 0.06}
+{'loss': 2.2689, 'grad_norm': 0.8282843828201294, 'learning_rate': 0.000138, 'mean_token_accuracy': 0.525547444820404, 'epoch': 0.06}
+{'loss': 2.0804, 'grad_norm': 0.7839288115501404, 'learning_rate': 0.00013759999999999998, 'mean_token_accuracy': 0.5595777034759521, 'epoch': 0.06}
+{'loss': 1.9055, 'grad_norm': 0.3950488567352295, 'learning_rate': 0.00013720000000000003, 'mean_token_accuracy': 0.5880861878395081, 'epoch': 0.06}
+{'loss': 1.595, 'grad_norm': 0.42515870928764343, 'learning_rate': 0.00013680000000000002, 'mean_token_accuracy': 0.5875265598297119, 'epoch': 0.06}
+{'loss': 2.2074, 'grad_norm': 0.5877357721328735, 'learning_rate': 0.0001328, 'mean_token_accuracy': 0.523809552192688, 'epoch': 0.07}
+{'loss': 1.6952, 'grad_norm': 0.4192450940608978, 'learning_rate': 0.00013240000000000002, 'mean_token_accuracy': 0.6345894932746887, 'epoch': 0.07}
+{'loss': 1.7654, 'grad_norm': 0.5398001670837402, 'learning_rate': 0.000132, 'mean_token_accuracy': 0.5671206116676331, 'epoch': 0.07}
+{'loss': 2.1909, 'grad_norm': 0.5034624338150024, 'learning_rate': 0.0001316, 'mean_token_accuracy': 0.526062548160553, 'epoch': 0.07}
+{'loss': 1.6475, 'grad_norm': 0.5138007998466492, 'learning_rate': 0.00013120000000000002, 'mean_token_accuracy': 0.618791937828064, 'epoch': 0.07}
+{'loss': 1.9037, 'grad_norm': 0.4985472857952118, 'learning_rate': 0.0001308, 'mean_token_accuracy': 0.6116352081298828, 'epoch': 0.07}
+{'loss': 1.7801, 'grad_norm': 0.5550017356872559, 'learning_rate': 0.0001304, 'mean_token_accuracy': 0.6163934469223022, 'epoch': 0.07}
+{'loss': 2.1107, 'grad_norm': 0.556656539440155, 'learning_rate': 0.00013000000000000002, 'mean_token_accuracy': 0.5426278710365295, 'epoch': 0.07}
+{'loss': 1.3605, 'grad_norm': 0.5152594447135925, 'learning_rate': 0.0001296, 'mean_token_accuracy': 0.6426025032997131, 'epoch': 0.07}
+{'loss': 1.6185, 'grad_norm': 0.4183593988418579, 'learning_rate': 0.00012920000000000002, 'mean_token_accuracy': 0.5991611480712891, 'epoch': 0.07}
+{'loss': 1.9844, 'grad_norm': 0.6718716621398926, 'learning_rate': 0.00012880000000000001, 'mean_token_accuracy': 0.570270299911499, 'epoch': 0.07}
+{'loss': 1.5986, 'grad_norm': 0.6609309315681458, 'learning_rate': 0.0001284, 'mean_token_accuracy': 0.530386745929718, 'epoch': 0.07}
+{'loss': 2.2829, 'grad_norm': 0.5729672312736511, 'learning_rate': 0.00012800000000000002, 'mean_token_accuracy': 0.5239852666854858, 'epoch': 0.07}
+{'loss': 1.2, 'grad_norm': 0.4088975787162781, 'learning_rate': 0.0001276, 'mean_token_accuracy': 0.7085345983505249, 'epoch': 0.07}
+{'loss': 2.5992, 'grad_norm': 0.6832698583602905, 'learning_rate': 0.0001272, 'mean_token_accuracy': 0.4856577515602112, 'epoch': 0.07}
+{'loss': 1.7598, 'grad_norm': 0.4568759799003601, 'learning_rate': 0.00012680000000000002, 'mean_token_accuracy': 0.6096794605255127, 'epoch': 0.07}
+{'loss': 1.5941, 'grad_norm': 0.5396810173988342, 'learning_rate': 0.0001264, 'mean_token_accuracy': 0.6451612710952759, 'epoch': 0.07}
+{'loss': 3.7252, 'grad_norm': 1.061079740524292, 'learning_rate': 0.000126, 'mean_token_accuracy': 0.3693304657936096, 'epoch': 0.08}
+{'loss': 1.5711, 'grad_norm': 0.48241373896598816, 'learning_rate': 0.00012560000000000002, 'mean_token_accuracy': 0.6608133316040039, 'epoch': 0.08}
+{'loss': 1.3762, 'grad_norm': 0.5390790700912476, 'learning_rate': 0.0001252, 'mean_token_accuracy': 0.671895444393158, 'epoch': 0.08}
+{'loss': 2.4023, 'grad_norm': 1.218502402305603, 'learning_rate': 0.0001248, 'mean_token_accuracy': 0.525073766708374, 'epoch': 0.08}
+{'loss': 2.1882, 'grad_norm': 0.8296842575073242, 'learning_rate': 0.00012440000000000002, 'mean_token_accuracy': 0.5346534848213196, 'epoch': 0.08}
+{'loss': 2.0258, 'grad_norm': 0.7510889172554016, 'learning_rate': 0.000124, 'mean_token_accuracy': 0.567258894443512, 'epoch': 0.08}
+{'loss': 1.257, 'grad_norm': 0.7766487002372742, 'learning_rate': 0.0001236, 'mean_token_accuracy': 0.6666666865348816, 'epoch': 0.08}
+{'loss': 1.8372, 'grad_norm': 0.4487181007862091, 'learning_rate': 0.0001232, 'mean_token_accuracy': 0.6152055859565735, 'epoch': 0.08}
+{'loss': 1.9033, 'grad_norm': 0.42333853244781494, 'learning_rate': 0.0001228, 'mean_token_accuracy': 0.5763704180717468, 'epoch': 0.08}
+{'loss': 2.1161, 'grad_norm': 0.6797448396682739, 'learning_rate': 0.0001224, 'mean_token_accuracy': 0.5578703880310059, 'epoch': 0.08}
+{'loss': 1.4748, 'grad_norm': 0.434822142124176, 'learning_rate': 0.000122, 'mean_token_accuracy': 0.6608073115348816, 'epoch': 0.08}
+{'loss': 1.9383, 'grad_norm': 0.9751597046852112, 'learning_rate': 0.0001216, 'mean_token_accuracy': 0.5787878632545471, 'epoch': 0.08}
+{'loss': 1.8434, 'grad_norm': 0.5081367492675781, 'learning_rate': 0.0001212, 'mean_token_accuracy': 0.6042402982711792, 'epoch': 0.08}
+{'loss': 2.0088, 'grad_norm': 1.0084818601608276, 'learning_rate': 0.0001208, 'mean_token_accuracy': 0.5379746556282043, 'epoch': 0.08}
+{'loss': 2.1316, 'grad_norm': 1.0549547672271729, 'learning_rate': 0.0001204, 'mean_token_accuracy': 0.5380710363388062, 'epoch': 0.08}
+{'loss': 1.7937, 'grad_norm': 0.564590573310852, 'learning_rate': 0.00012, 'mean_token_accuracy': 0.5906432867050171, 'epoch': 0.08}
+ 40%|████████████████▍                        | 200/500 [36:07<36:06,  7.22s/it]/usr/local/lib/python3.10/dist-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+{'loss': 1.9405, 'grad_norm': 0.4357481896877289, 'learning_rate': 0.00011960000000000001, 'mean_token_accuracy': 0.5436893105506897, 'epoch': 0.08}
+{'loss': 1.7132, 'grad_norm': 0.5031635165214539, 'learning_rate': 0.0001192, 'mean_token_accuracy': 0.6251454949378967, 'epoch': 0.08}
+{'loss': 1.3895, 'grad_norm': 0.3791215717792511, 'learning_rate': 0.0001188, 'mean_token_accuracy': 0.6793708205223083, 'epoch': 0.08}
+{'loss': 1.4137, 'grad_norm': 0.4723488986492157, 'learning_rate': 0.0001184, 'mean_token_accuracy': 0.6662134528160095, 'epoch': 0.08}
+{'loss': 2.0377, 'grad_norm': 0.8320656418800354, 'learning_rate': 0.000118, 'mean_token_accuracy': 0.5419222712516785, 'epoch': 0.08}
+{'loss': 1.5385, 'grad_norm': 0.41603896021842957, 'learning_rate': 0.0001176, 'mean_token_accuracy': 0.5912356376647949, 'epoch': 0.08}
+{'loss': 1.9764, 'grad_norm': 0.5761992335319519, 'learning_rate': 0.0001172, 'mean_token_accuracy': 0.529304027557373, 'epoch': 0.08}
+{'loss': 1.9543, 'grad_norm': 0.47295254468917847, 'learning_rate': 0.00011679999999999999, 'mean_token_accuracy': 0.5909423232078552, 'epoch': 0.08}
+{'loss': 2.1006, 'grad_norm': 0.6870090961456299, 'learning_rate': 0.0001164, 'mean_token_accuracy': 0.550061821937561, 'epoch': 0.08}
+{'loss': 1.4205, 'grad_norm': 0.41622763872146606, 'learning_rate': 0.000116, 'mean_token_accuracy': 0.6726422309875488, 'epoch': 0.09}
+{'loss': 2.5882, 'grad_norm': 1.0741331577301025, 'learning_rate': 0.00011559999999999999, 'mean_token_accuracy': 0.49462366104125977, 'epoch': 0.09}
+{'loss': 1.5689, 'grad_norm': 0.5703837871551514, 'learning_rate': 0.0001152, 'mean_token_accuracy': 0.6352583765983582, 'epoch': 0.09}
+{'loss': 2.0144, 'grad_norm': 0.3996254801750183, 'learning_rate': 0.0001148, 'mean_token_accuracy': 0.5825366377830505, 'epoch': 0.09}
+{'loss': 1.5947, 'grad_norm': 0.47426122426986694, 'learning_rate': 0.0001144, 'mean_token_accuracy': 0.6087456941604614, 'epoch': 0.09}
+{'loss': 1.3069, 'grad_norm': 0.40473082661628723, 'learning_rate': 0.00011399999999999999, 'mean_token_accuracy': 0.655283510684967, 'epoch': 0.09}
+{'loss': 2.3144, 'grad_norm': 0.7020972967147827, 'learning_rate': 0.0001136, 'mean_token_accuracy': 0.4840989410877228, 'epoch': 0.09}
+{'loss': 1.6791, 'grad_norm': 0.5087571144104004, 'learning_rate': 0.0001132, 'mean_token_accuracy': 0.6265903115272522, 'epoch': 0.09}
+{'loss': 2.2769, 'grad_norm': 0.4955187439918518, 'learning_rate': 0.00011279999999999999, 'mean_token_accuracy': 0.5306539535522461, 'epoch': 0.09}
+{'loss': 1.1969, 'grad_norm': 0.4986061155796051, 'learning_rate': 0.00011240000000000002, 'mean_token_accuracy': 0.7279860377311707, 'epoch': 0.09}
+{'loss': 1.8054, 'grad_norm': 0.5817466974258423, 'learning_rate': 0.00011200000000000001, 'mean_token_accuracy': 0.5927654504776001, 'epoch': 0.09}
+{'loss': 2.057, 'grad_norm': 0.5918652415275574, 'learning_rate': 0.00011160000000000002, 'mean_token_accuracy': 0.5446927547454834, 'epoch': 0.09}
+{'loss': 1.8411, 'grad_norm': 0.46126285195350647, 'learning_rate': 0.00011120000000000002, 'mean_token_accuracy': 0.5586158037185669, 'epoch': 0.09}
+{'loss': 1.5986, 'grad_norm': 0.5879104733467102, 'learning_rate': 0.00011080000000000001, 'mean_token_accuracy': 0.6474418640136719, 'epoch': 0.09}
+{'loss': 2.2755, 'grad_norm': 0.6075668334960938, 'learning_rate': 0.00011040000000000001, 'mean_token_accuracy': 0.5316863656044006, 'epoch': 0.09}
+{'loss': 1.8521, 'grad_norm': 0.6593890190124512, 'learning_rate': 0.00011000000000000002, 'mean_token_accuracy': 0.5992255806922913, 'epoch': 0.09}
+{'loss': 1.6618, 'grad_norm': 0.46749743819236755, 'learning_rate': 0.00010480000000000001, 'mean_token_accuracy': 0.6065698862075806, 'epoch': 0.1}
+{'loss': 1.6928, 'grad_norm': 0.5034400224685669, 'learning_rate': 0.0001044, 'mean_token_accuracy': 0.6479430198669434, 'epoch': 0.1}
+{'loss': 3.0842, 'grad_norm': 0.8586080074310303, 'learning_rate': 0.00010400000000000001, 'mean_token_accuracy': 0.41418763995170593, 'epoch': 0.1}
+{'loss': 1.6711, 'grad_norm': 0.616386353969574, 'learning_rate': 0.00010360000000000001, 'mean_token_accuracy': 0.6054334044456482, 'epoch': 0.1}
+{'loss': 1.9442, 'grad_norm': 0.4484677314758301, 'learning_rate': 0.0001032, 'mean_token_accuracy': 0.5797101259231567, 'epoch': 0.1}
+{'loss': 2.3012, 'grad_norm': 0.5938141942024231, 'learning_rate': 0.0001028, 'mean_token_accuracy': 0.5092936754226685, 'epoch': 0.1}
+{'loss': 2.2243, 'grad_norm': 0.7289705872535706, 'learning_rate': 0.00010240000000000001, 'mean_token_accuracy': 0.5168316960334778, 'epoch': 0.1}
+{'loss': 1.2709, 'grad_norm': 0.48104605078697205, 'learning_rate': 0.00010200000000000001, 'mean_token_accuracy': 0.7120291590690613, 'epoch': 0.1}
+{'loss': 1.8195, 'grad_norm': 0.4497903883457184, 'learning_rate': 0.0001016, 'mean_token_accuracy': 0.587837815284729, 'epoch': 0.1}
+{'loss': 1.9038, 'grad_norm': 0.5270698070526123, 'learning_rate': 0.00010120000000000001, 'mean_token_accuracy': 0.5741827487945557, 'epoch': 0.1}
+{'loss': 1.9049, 'grad_norm': 0.4264279305934906, 'learning_rate': 0.00010080000000000001, 'mean_token_accuracy': 0.5292901396751404, 'epoch': 0.1}
+{'loss': 1.2705, 'grad_norm': 0.506751537322998, 'learning_rate': 0.0001004, 'mean_token_accuracy': 0.6818181872367859, 'epoch': 0.1}
+{'loss': 1.175, 'grad_norm': 0.4319157898426056, 'learning_rate': 0.0001, 'mean_token_accuracy': 0.7117437720298767, 'epoch': 0.1}
+{'loss': 1.5678, 'grad_norm': 0.5945758819580078, 'learning_rate': 9.960000000000001e-05, 'mean_token_accuracy': 0.625, 'epoch': 0.1}
+{'loss': 1.8891, 'grad_norm': 0.48290014266967773, 'learning_rate': 9.92e-05, 'mean_token_accuracy': 0.5645439028739929, 'epoch': 0.1}
+{'loss': 1.4887, 'grad_norm': 0.8200120329856873, 'learning_rate': 9.88e-05, 'mean_token_accuracy': 0.6407942175865173, 'epoch': 0.1}
+{'loss': 1.7184, 'grad_norm': 0.45730000734329224, 'learning_rate': 9.84e-05, 'mean_token_accuracy': 0.6188467144966125, 'epoch': 0.1}
+{'loss': 1.3231, 'grad_norm': 0.39967334270477295, 'learning_rate': 9.8e-05, 'mean_token_accuracy': 0.6996610164642334, 'epoch': 0.1}
+{'loss': 1.5667, 'grad_norm': 0.5115000605583191, 'learning_rate': 9.76e-05, 'mean_token_accuracy': 0.5951134562492371, 'epoch': 0.1}
+{'loss': 1.4296, 'grad_norm': 0.4885364770889282, 'learning_rate': 9.72e-05, 'mean_token_accuracy': 0.6089901328086853, 'epoch': 0.1}
+{'loss': 1.8174, 'grad_norm': 0.5585907697677612, 'learning_rate': 9.680000000000001e-05, 'mean_token_accuracy': 0.5876089334487915, 'epoch': 0.1}
+{'loss': 1.7505, 'grad_norm': 0.4274236857891083, 'learning_rate': 9.64e-05, 'mean_token_accuracy': 0.6146589517593384, 'epoch': 0.11}
+{'loss': 1.3818, 'grad_norm': 0.46583816409111023, 'learning_rate': 9.6e-05, 'mean_token_accuracy': 0.615160346031189, 'epoch': 0.11}
+{'loss': 1.7114, 'grad_norm': 0.6501246690750122, 'learning_rate': 9.56e-05, 'mean_token_accuracy': 0.6149553656578064, 'epoch': 0.11}
+{'loss': 1.2611, 'grad_norm': 0.49334296584129333, 'learning_rate': 9.52e-05, 'mean_token_accuracy': 0.6664031744003296, 'epoch': 0.11}
+{'loss': 2.079, 'grad_norm': 0.6214917898178101, 'learning_rate': 9.48e-05, 'mean_token_accuracy': 0.6016806960105896, 'epoch': 0.11}
+{'loss': 1.812, 'grad_norm': 0.46308135986328125, 'learning_rate': 9.44e-05, 'mean_token_accuracy': 0.5827041864395142, 'epoch': 0.11}
+{'loss': 2.3415, 'grad_norm': 0.5559701323509216, 'learning_rate': 9.4e-05, 'mean_token_accuracy': 0.5382031798362732, 'epoch': 0.11}
+{'loss': 1.4189, 'grad_norm': 0.43415752053260803, 'learning_rate': 9.360000000000001e-05, 'mean_token_accuracy': 0.6275410056114197, 'epoch': 0.11}
+{'loss': 1.8159, 'grad_norm': 0.5465894341468811, 'learning_rate': 9.320000000000002e-05, 'mean_token_accuracy': 0.6209552884101868, 'epoch': 0.11}
+{'loss': 1.6884, 'grad_norm': 0.4512600302696228, 'learning_rate': 9.28e-05, 'mean_token_accuracy': 0.593421995639801, 'epoch': 0.11}
+{'loss': 1.2059, 'grad_norm': 0.45172998309135437, 'learning_rate': 9.240000000000001e-05, 'mean_token_accuracy': 0.6634408831596375, 'epoch': 0.11}
+{'loss': 1.246, 'grad_norm': 0.47709113359451294, 'learning_rate': 9.200000000000001e-05, 'mean_token_accuracy': 0.6637848019599915, 'epoch': 0.11}
+{'loss': 1.6625, 'grad_norm': 0.5375301837921143, 'learning_rate': 9.16e-05, 'mean_token_accuracy': 0.6147058606147766, 'epoch': 0.11}
+{'loss': 1.7813, 'grad_norm': 0.4668382704257965, 'learning_rate': 9.120000000000001e-05, 'mean_token_accuracy': 0.6276518106460571, 'epoch': 0.11}
+{'loss': 1.1454, 'grad_norm': 0.47763654589653015, 'learning_rate': 9.080000000000001e-05, 'mean_token_accuracy': 0.644859790802002, 'epoch': 0.11}
+{'loss': 1.9152, 'grad_norm': 0.49221447110176086, 'learning_rate': 9.04e-05, 'mean_token_accuracy': 0.5983455777168274, 'epoch': 0.11}
+{'loss': 1.1475, 'grad_norm': 0.3981519937515259, 'learning_rate': 9e-05, 'mean_token_accuracy': 0.7102009057998657, 'epoch': 0.11}
+{'loss': 1.0865, 'grad_norm': 0.3362039625644684, 'learning_rate': 8.960000000000001e-05, 'mean_token_accuracy': 0.7212156653404236, 'epoch': 0.11}
+{'loss': 1.1633, 'grad_norm': 0.5095939040184021, 'learning_rate': 8.92e-05, 'mean_token_accuracy': 0.7343927621841431, 'epoch': 0.11}
+{'loss': 1.6412, 'grad_norm': 0.3899942934513092, 'learning_rate': 8.88e-05, 'mean_token_accuracy': 0.6032289862632751, 'epoch': 0.11}
+{'loss': 1.643, 'grad_norm': 0.516718327999115, 'learning_rate': 8.840000000000001e-05, 'mean_token_accuracy': 0.614973247051239, 'epoch': 0.11}
+{'loss': 1.7139, 'grad_norm': 0.46607208251953125, 'learning_rate': 8.800000000000001e-05, 'mean_token_accuracy': 0.5956989526748657, 'epoch': 0.11}
+{'loss': 1.8285, 'grad_norm': 0.5182815194129944, 'learning_rate': 8.76e-05, 'mean_token_accuracy': 0.6164122223854065, 'epoch': 0.11}
+{'loss': 1.7687, 'grad_norm': 0.39336395263671875, 'learning_rate': 8.72e-05, 'mean_token_accuracy': 0.6443899273872375, 'epoch': 0.11}
+{'loss': 1.6544, 'grad_norm': 0.4651670455932617, 'learning_rate': 8.680000000000001e-05, 'mean_token_accuracy': 0.6219151020050049, 'epoch': 0.11}
+{'loss': 1.6352, 'grad_norm': 0.456795334815979, 'learning_rate': 8.64e-05, 'mean_token_accuracy': 0.6168091297149658, 'epoch': 0.12}
+{'loss': 2.035, 'grad_norm': 0.4518255293369293, 'learning_rate': 8.6e-05, 'mean_token_accuracy': 0.5840118527412415, 'epoch': 0.12}
+{'loss': 2.0518, 'grad_norm': 0.4455920159816742, 'learning_rate': 8.560000000000001e-05, 'mean_token_accuracy': 0.5676410794258118, 'epoch': 0.12}
+{'loss': 1.3968, 'grad_norm': 0.3387928307056427, 'learning_rate': 8.52e-05, 'mean_token_accuracy': 0.6338837146759033, 'epoch': 0.12}
+{'loss': 1.6029, 'grad_norm': 0.4355565011501312, 'learning_rate': 8.48e-05, 'mean_token_accuracy': 0.6048951148986816, 'epoch': 0.12}
+{'loss': 1.9854, 'grad_norm': 0.6073729395866394, 'learning_rate': 8.44e-05, 'mean_token_accuracy': 0.5891647934913635, 'epoch': 0.12}
+{'loss': 1.8795, 'grad_norm': 0.3911910355091095, 'learning_rate': 8.4e-05, 'mean_token_accuracy': 0.6028589010238647, 'epoch': 0.12}
+{'loss': 1.4975, 'grad_norm': 0.3810165226459503, 'learning_rate': 8.36e-05, 'mean_token_accuracy': 0.6527285575866699, 'epoch': 0.12}
+{'loss': 1.7703, 'grad_norm': 0.4337804615497589, 'learning_rate': 8.32e-05, 'mean_token_accuracy': 0.6074342727661133, 'epoch': 0.12}
+{'loss': 1.901, 'grad_norm': 0.5803226232528687, 'learning_rate': 8.28e-05, 'mean_token_accuracy': 0.5069518685340881, 'epoch': 0.12}
+{'loss': 1.5786, 'grad_norm': 0.4493730664253235, 'learning_rate': 8.24e-05, 'mean_token_accuracy': 0.6721804738044739, 'epoch': 0.12}
+{'loss': 1.805, 'grad_norm': 0.5405327677726746, 'learning_rate': 8.2e-05, 'mean_token_accuracy': 0.525739312171936, 'epoch': 0.12}
+{'loss': 2.5897, 'grad_norm': 0.5709810853004456, 'learning_rate': 8.16e-05, 'mean_token_accuracy': 0.4562268853187561, 'epoch': 0.12}
+{'loss': 2.1015, 'grad_norm': 0.5021235942840576, 'learning_rate': 8.120000000000001e-05, 'mean_token_accuracy': 0.4893617033958435, 'epoch': 0.12}
+{'loss': 2.1577, 'grad_norm': 0.6734293699264526, 'learning_rate': 8.080000000000001e-05, 'mean_token_accuracy': 0.5132012963294983, 'epoch': 0.12}
+{'loss': 2.5068, 'grad_norm': 0.5807400941848755, 'learning_rate': 8.04e-05, 'mean_token_accuracy': 0.4118136465549469, 'epoch': 0.12}
+{'loss': 1.6126, 'grad_norm': 0.47479525208473206, 'learning_rate': 8e-05, 'mean_token_accuracy': 0.6594203114509583, 'epoch': 0.12}
+ 60%|████████████████████████▌                | 300/500 [54:34<37:17, 11.19s/it]/usr/local/lib/python3.10/dist-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+{'loss': 2.0797, 'grad_norm': 0.6311390995979309, 'learning_rate': 7.960000000000001e-05, 'mean_token_accuracy': 0.5592286586761475, 'epoch': 0.12}
+{'loss': 2.1165, 'grad_norm': 0.6479042172431946, 'learning_rate': 7.920000000000001e-05, 'mean_token_accuracy': 0.5586419701576233, 'epoch': 0.12}
+{'loss': 1.6821, 'grad_norm': 0.4940686821937561, 'learning_rate': 7.88e-05, 'mean_token_accuracy': 0.6512488722801208, 'epoch': 0.12}
+{'loss': 1.8181, 'grad_norm': 0.423839271068573, 'learning_rate': 7.840000000000001e-05, 'mean_token_accuracy': 0.6297988891601562, 'epoch': 0.12}
+{'loss': 1.8323, 'grad_norm': 0.46885380148887634, 'learning_rate': 7.800000000000001e-05, 'mean_token_accuracy': 0.6006666421890259, 'epoch': 0.12}
+{'loss': 2.1789, 'grad_norm': 0.5055668950080872, 'learning_rate': 7.76e-05, 'mean_token_accuracy': 0.5277280807495117, 'epoch': 0.12}
+{'loss': 1.629, 'grad_norm': 0.4228823184967041, 'learning_rate': 7.72e-05, 'mean_token_accuracy': 0.616330087184906, 'epoch': 0.12}
+{'loss': 1.6993, 'grad_norm': 0.5632159113883972, 'learning_rate': 7.680000000000001e-05, 'mean_token_accuracy': 0.5922693014144897, 'epoch': 0.13}
+{'loss': 1.3436, 'grad_norm': 0.43238139152526855, 'learning_rate': 7.64e-05, 'mean_token_accuracy': 0.6463667750358582, 'epoch': 0.13}
+{'loss': 1.4212, 'grad_norm': 0.375438392162323, 'learning_rate': 7.6e-05, 'mean_token_accuracy': 0.6074766516685486, 'epoch': 0.13}
+{'loss': 2.0303, 'grad_norm': 0.6108296513557434, 'learning_rate': 7.560000000000001e-05, 'mean_token_accuracy': 0.5349716544151306, 'epoch': 0.13}
+{'loss': 2.6779, 'grad_norm': 0.6207155585289001, 'learning_rate': 7.52e-05, 'mean_token_accuracy': 0.4845201373100281, 'epoch': 0.13}
+{'loss': 2.049, 'grad_norm': 0.43445831537246704, 'learning_rate': 7.48e-05, 'mean_token_accuracy': 0.5558052659034729, 'epoch': 0.13}
+{'loss': 1.9127, 'grad_norm': 0.7326761484146118, 'learning_rate': 7.44e-05, 'mean_token_accuracy': 0.5879999995231628, 'epoch': 0.13}
+{'loss': 1.9536, 'grad_norm': 0.4443644881248474, 'learning_rate': 7.4e-05, 'mean_token_accuracy': 0.5484633445739746, 'epoch': 0.13}
+{'loss': 1.4717, 'grad_norm': 0.4565912187099457, 'learning_rate': 7.36e-05, 'mean_token_accuracy': 0.6418401002883911, 'epoch': 0.13}
+{'loss': 1.5893, 'grad_norm': 0.45417875051498413, 'learning_rate': 7.32e-05, 'mean_token_accuracy': 0.6477115154266357, 'epoch': 0.13}
+{'loss': 1.8467, 'grad_norm': 0.6239479780197144, 'learning_rate': 7.280000000000001e-05, 'mean_token_accuracy': 0.6071942448616028, 'epoch': 0.13}
+{'loss': 2.1008, 'grad_norm': 0.611187756061554, 'learning_rate': 7.24e-05, 'mean_token_accuracy': 0.5728559494018555, 'epoch': 0.13}
+{'loss': 2.3281, 'grad_norm': 0.5119237303733826, 'learning_rate': 7.2e-05, 'mean_token_accuracy': 0.5818686485290527, 'epoch': 0.13}
+{'loss': 1.7283, 'grad_norm': 0.46258753538131714, 'learning_rate': 7.16e-05, 'mean_token_accuracy': 0.6339712738990784, 'epoch': 0.13}
+{'loss': 2.0107, 'grad_norm': 0.4039516746997833, 'learning_rate': 7.12e-05, 'mean_token_accuracy': 0.5399084687232971, 'epoch': 0.13}
+{'loss': 1.9499, 'grad_norm': 0.3900723457336426, 'learning_rate': 7.08e-05, 'mean_token_accuracy': 0.5381455421447754, 'epoch': 0.13}
+{'loss': 1.245, 'grad_norm': 0.586241602897644, 'learning_rate': 7.04e-05, 'mean_token_accuracy': 0.6479452252388, 'epoch': 0.13}
+{'loss': 1.4581, 'grad_norm': 0.304519385099411, 'learning_rate': 7e-05, 'mean_token_accuracy': 0.6652337312698364, 'epoch': 0.13}
+{'loss': 1.9605, 'grad_norm': 0.5980650782585144, 'learning_rate': 6.96e-05, 'mean_token_accuracy': 0.5875831246376038, 'epoch': 0.13}
+{'loss': 2.3469, 'grad_norm': 0.7038798332214355, 'learning_rate': 6.92e-05, 'mean_token_accuracy': 0.5161290168762207, 'epoch': 0.13}
+{'loss': 1.3814, 'grad_norm': 0.6431928873062134, 'learning_rate': 6.879999999999999e-05, 'mean_token_accuracy': 0.6085858345031738, 'epoch': 0.13}
+{'loss': 1.5609, 'grad_norm': 0.45075488090515137, 'learning_rate': 6.840000000000001e-05, 'mean_token_accuracy': 0.6277602314949036, 'epoch': 0.13}
+{'loss': 1.359, 'grad_norm': 0.45593345165252686, 'learning_rate': 6.800000000000001e-05, 'mean_token_accuracy': 0.6283581852912903, 'epoch': 0.13}
+{'loss': 1.9846, 'grad_norm': 0.5194205045700073, 'learning_rate': 6.76e-05, 'mean_token_accuracy': 0.5651085376739502, 'epoch': 0.13}
+{'loss': 1.7574, 'grad_norm': 0.44340234994888306, 'learning_rate': 6.720000000000001e-05, 'mean_token_accuracy': 0.6172059774398804, 'epoch': 0.13}
+{'loss': 2.0335, 'grad_norm': 0.7250810265541077, 'learning_rate': 6.680000000000001e-05, 'mean_token_accuracy': 0.5948509573936462, 'epoch': 0.14}
+{'loss': 2.2384, 'grad_norm': 0.6092073321342468, 'learning_rate': 6.64e-05, 'mean_token_accuracy': 0.5425100922584534, 'epoch': 0.14}
+{'loss': 1.847, 'grad_norm': 0.4463058114051819, 'learning_rate': 6.6e-05, 'mean_token_accuracy': 0.6011396050453186, 'epoch': 0.14}
+{'loss': 1.7309, 'grad_norm': 0.45329996943473816, 'learning_rate': 6.560000000000001e-05, 'mean_token_accuracy': 0.6194517016410828, 'epoch': 0.14}
+{'loss': 2.4926, 'grad_norm': 1.0036735534667969, 'learning_rate': 6.52e-05, 'mean_token_accuracy': 0.5015974640846252, 'epoch': 0.14}
+{'loss': 2.142, 'grad_norm': 0.5303177833557129, 'learning_rate': 6.48e-05, 'mean_token_accuracy': 0.559817373752594, 'epoch': 0.14}
+{'loss': 1.7088, 'grad_norm': 0.5747648477554321, 'learning_rate': 6.440000000000001e-05, 'mean_token_accuracy': 0.6114649772644043, 'epoch': 0.14}
+{'loss': 2.4352, 'grad_norm': 0.5540180802345276, 'learning_rate': 6.400000000000001e-05, 'mean_token_accuracy': 0.46671542525291443, 'epoch': 0.14}
+{'loss': 1.628, 'grad_norm': 0.432545006275177, 'learning_rate': 6.36e-05, 'mean_token_accuracy': 0.6590765118598938, 'epoch': 0.14}
+{'loss': 1.5971, 'grad_norm': 0.5401442050933838, 'learning_rate': 6.32e-05, 'mean_token_accuracy': 0.651358962059021, 'epoch': 0.14}
+{'loss': 2.1046, 'grad_norm': 0.5144603252410889, 'learning_rate': 6.280000000000001e-05, 'mean_token_accuracy': 0.5256064534187317, 'epoch': 0.14}
+{'loss': 1.6355, 'grad_norm': 0.4245656132698059, 'learning_rate': 6.24e-05, 'mean_token_accuracy': 0.6052173972129822, 'epoch': 0.14}
+{'loss': 2.3029, 'grad_norm': 0.48259517550468445, 'learning_rate': 6.2e-05, 'mean_token_accuracy': 0.5159817337989807, 'epoch': 0.14}
+{'loss': 1.6399, 'grad_norm': 0.4906502068042755, 'learning_rate': 6.16e-05, 'mean_token_accuracy': 0.6385998129844666, 'epoch': 0.14}
+{'loss': 1.8861, 'grad_norm': 0.5563861727714539, 'learning_rate': 6.12e-05, 'mean_token_accuracy': 0.5586854219436646, 'epoch': 0.14}
+{'loss': 2.244, 'grad_norm': 0.5605506896972656, 'learning_rate': 6.08e-05, 'mean_token_accuracy': 0.5240174531936646, 'epoch': 0.14}
+{'loss': 1.8112, 'grad_norm': 0.39325931668281555, 'learning_rate': 6.04e-05, 'mean_token_accuracy': 0.614327073097229, 'epoch': 0.14}
+{'loss': 1.549, 'grad_norm': 0.6046192049980164, 'learning_rate': 6e-05, 'mean_token_accuracy': 0.6936416029930115, 'epoch': 0.14}
+{'loss': 1.7223, 'grad_norm': 0.44773805141448975, 'learning_rate': 5.96e-05, 'mean_token_accuracy': 0.6233932971954346, 'epoch': 0.14}
+{'loss': 2.2944, 'grad_norm': 0.7031364440917969, 'learning_rate': 5.92e-05, 'mean_token_accuracy': 0.5633587837219238, 'epoch': 0.14}
+{'loss': 1.3028, 'grad_norm': 0.5134181976318359, 'learning_rate': 5.88e-05, 'mean_token_accuracy': 0.6346153616905212, 'epoch': 0.14}
+{'loss': 1.7339, 'grad_norm': 0.47181236743927, 'learning_rate': 5.8399999999999997e-05, 'mean_token_accuracy': 0.5552099347114563, 'epoch': 0.14}
+{'loss': 2.8416, 'grad_norm': 0.6625881195068359, 'learning_rate': 5.8e-05, 'mean_token_accuracy': 0.42451614141464233, 'epoch': 0.14}
+{'loss': 1.6228, 'grad_norm': 0.4124830961227417, 'learning_rate': 5.76e-05, 'mean_token_accuracy': 0.6349934339523315, 'epoch': 0.14}
+{'loss': 2.6423, 'grad_norm': 0.5589583516120911, 'learning_rate': 5.72e-05, 'mean_token_accuracy': 0.4722222089767456, 'epoch': 0.15}
+{'loss': 1.5616, 'grad_norm': 0.5087378621101379, 'learning_rate': 5.68e-05, 'mean_token_accuracy': 0.6474907994270325, 'epoch': 0.15}
+{'loss': 1.5953, 'grad_norm': 0.4077227711677551, 'learning_rate': 5.6399999999999995e-05, 'mean_token_accuracy': 0.598557710647583, 'epoch': 0.15}
+{'loss': 1.5749, 'grad_norm': 0.4508742392063141, 'learning_rate': 5.6000000000000006e-05, 'mean_token_accuracy': 0.6397812962532043, 'epoch': 0.15}
+{'loss': 1.8179, 'grad_norm': 0.4088945686817169, 'learning_rate': 5.560000000000001e-05, 'mean_token_accuracy': 0.5944734811782837, 'epoch': 0.15}
+{'loss': 1.4397, 'grad_norm': 0.4034823179244995, 'learning_rate': 5.520000000000001e-05, 'mean_token_accuracy': 0.6622152328491211, 'epoch': 0.15}
+{'loss': 1.5826, 'grad_norm': 0.49669694900512695, 'learning_rate': 5.4800000000000004e-05, 'mean_token_accuracy': 0.6181818246841431, 'epoch': 0.15}
+{'loss': 1.8655, 'grad_norm': 0.4210164546966553, 'learning_rate': 5.440000000000001e-05, 'mean_token_accuracy': 0.5665610432624817, 'epoch': 0.15}
+{'loss': 1.3705, 'grad_norm': 0.38102349638938904, 'learning_rate': 5.4000000000000005e-05, 'mean_token_accuracy': 0.6731168031692505, 'epoch': 0.15}
+{'loss': 2.2518, 'grad_norm': 0.6757310032844543, 'learning_rate': 5.360000000000001e-05, 'mean_token_accuracy': 0.557692289352417, 'epoch': 0.15}
+{'loss': 2.1307, 'grad_norm': 0.5397708415985107, 'learning_rate': 5.3200000000000006e-05, 'mean_token_accuracy': 0.5123339891433716, 'epoch': 0.15}
+{'loss': 2.1628, 'grad_norm': 0.5729584693908691, 'learning_rate': 5.28e-05, 'mean_token_accuracy': 0.5647193789482117, 'epoch': 0.15}
+{'loss': 2.1547, 'grad_norm': 0.5467153191566467, 'learning_rate': 5.2400000000000007e-05, 'mean_token_accuracy': 0.5456238389015198, 'epoch': 0.15}
+{'loss': 1.9804, 'grad_norm': 0.5068169236183167, 'learning_rate': 5.2000000000000004e-05, 'mean_token_accuracy': 0.556382954120636, 'epoch': 0.15}
+{'loss': 1.4209, 'grad_norm': 0.4282897710800171, 'learning_rate': 5.16e-05, 'mean_token_accuracy': 0.6291172504425049, 'epoch': 0.15}
+{'loss': 2.2056, 'grad_norm': 0.6247764229774475, 'learning_rate': 5.1200000000000004e-05, 'mean_token_accuracy': 0.532868504524231, 'epoch': 0.15}
+{'loss': 2.2135, 'grad_norm': 0.6077898740768433, 'learning_rate': 5.08e-05, 'mean_token_accuracy': 0.5514018535614014, 'epoch': 0.15}
+{'loss': 1.8799, 'grad_norm': 0.5983895659446716, 'learning_rate': 5.0400000000000005e-05, 'mean_token_accuracy': 0.6465661525726318, 'epoch': 0.15}
+{'loss': 1.683, 'grad_norm': 0.48630088567733765, 'learning_rate': 5e-05, 'mean_token_accuracy': 0.6184210777282715, 'epoch': 0.15}
+{'loss': 3.0651, 'grad_norm': 0.44293808937072754, 'learning_rate': 4.96e-05, 'mean_token_accuracy': 0.4277726113796234, 'epoch': 0.15}
+{'loss': 1.3649, 'grad_norm': 0.48520427942276, 'learning_rate': 4.92e-05, 'mean_token_accuracy': 0.6409721970558167, 'epoch': 0.15}
+{'loss': 1.3089, 'grad_norm': 0.49796199798583984, 'learning_rate': 4.88e-05, 'mean_token_accuracy': 0.7196261882781982, 'epoch': 0.15}
+{'loss': 2.1409, 'grad_norm': 0.5317640900611877, 'learning_rate': 4.8400000000000004e-05, 'mean_token_accuracy': 0.5802955627441406, 'epoch': 0.15}
+{'loss': 1.5864, 'grad_norm': 0.534494936466217, 'learning_rate': 4.8e-05, 'mean_token_accuracy': 0.6233987808227539, 'epoch': 0.15}
+{'loss': 2.2831, 'grad_norm': 0.526447057723999, 'learning_rate': 4.76e-05, 'mean_token_accuracy': 0.548196017742157, 'epoch': 0.15}
+{'loss': 1.458, 'grad_norm': 0.4519607424736023, 'learning_rate': 4.72e-05, 'mean_token_accuracy': 0.6821945905685425, 'epoch': 0.16}
+{'loss': 1.797, 'grad_norm': 0.481491357088089, 'learning_rate': 4.6800000000000006e-05, 'mean_token_accuracy': 0.6285119652748108, 'epoch': 0.16}
+{'loss': 2.1017, 'grad_norm': 0.5332252383232117, 'learning_rate': 4.64e-05, 'mean_token_accuracy': 0.5485380291938782, 'epoch': 0.16}
+{'loss': 2.3472, 'grad_norm': 0.7412987351417542, 'learning_rate': 4.600000000000001e-05, 'mean_token_accuracy': 0.5069252252578735, 'epoch': 0.16}
+{'loss': 1.4913, 'grad_norm': 0.5978822708129883, 'learning_rate': 4.5600000000000004e-05, 'mean_token_accuracy': 0.6431989073753357, 'epoch': 0.16}
+{'loss': 1.8796, 'grad_norm': 0.46728527545928955, 'learning_rate': 4.52e-05, 'mean_token_accuracy': 0.5957446694374084, 'epoch': 0.16}
+{'loss': 1.5175, 'grad_norm': 0.3691045045852661, 'learning_rate': 4.4800000000000005e-05, 'mean_token_accuracy': 0.6359773278236389, 'epoch': 0.16}
+{'loss': 1.6673, 'grad_norm': 0.719076931476593, 'learning_rate': 4.44e-05, 'mean_token_accuracy': 0.608961284160614, 'epoch': 0.16}
+{'loss': 2.0888, 'grad_norm': 0.8377438187599182, 'learning_rate': 4.4000000000000006e-05, 'mean_token_accuracy': 0.5654951930046082, 'epoch': 0.16}
+{'loss': 1.4729, 'grad_norm': 0.5540910363197327, 'learning_rate': 4.36e-05, 'mean_token_accuracy': 0.6261937022209167, 'epoch': 0.16}
+{'loss': 1.9981, 'grad_norm': 0.6663382649421692, 'learning_rate': 4.32e-05, 'mean_token_accuracy': 0.5754277110099792, 'epoch': 0.16}
+{'loss': 1.6318, 'grad_norm': 0.5362899303436279, 'learning_rate': 4.2800000000000004e-05, 'mean_token_accuracy': 0.6386449337005615, 'epoch': 0.16}
+{'loss': 2.3964, 'grad_norm': 0.8269376158714294, 'learning_rate': 4.24e-05, 'mean_token_accuracy': 0.49892932176589966, 'epoch': 0.16}
+{'loss': 1.6622, 'grad_norm': 0.4807323217391968, 'learning_rate': 4.2e-05, 'mean_token_accuracy': 0.6360902190208435, 'epoch': 0.16}
+{'loss': 1.3544, 'grad_norm': 0.38704603910446167, 'learning_rate': 4.16e-05, 'mean_token_accuracy': 0.6793103218078613, 'epoch': 0.16}
+{'loss': 1.1952, 'grad_norm': 0.45879966020584106, 'learning_rate': 4.12e-05, 'mean_token_accuracy': 0.7103092670440674, 'epoch': 0.16}
+{'loss': 2.0033, 'grad_norm': 0.4816935062408447, 'learning_rate': 4.08e-05, 'mean_token_accuracy': 0.5460186004638672, 'epoch': 0.16}
+{'loss': 1.9656, 'grad_norm': 0.562363862991333, 'learning_rate': 4.0400000000000006e-05, 'mean_token_accuracy': 0.6157059073448181, 'epoch': 0.16}
+{'loss': 2.2625, 'grad_norm': 0.6644842028617859, 'learning_rate': 4e-05, 'mean_token_accuracy': 0.5314465165138245, 'epoch': 0.16}
+ 80%|███████████████████████████████▏       | 400/500 [1:12:22<16:20,  9.81s/it]/usr/local/lib/python3.10/dist-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+{'loss': 1.3104, 'grad_norm': 0.40021610260009766, 'learning_rate': 3.960000000000001e-05, 'mean_token_accuracy': 0.7008661031723022, 'epoch': 0.16}
+{'loss': 1.6707, 'grad_norm': 0.32734450697898865, 'learning_rate': 3.9200000000000004e-05, 'mean_token_accuracy': 0.6194638609886169, 'epoch': 0.16}
+{'loss': 3.128, 'grad_norm': 1.0086369514465332, 'learning_rate': 3.88e-05, 'mean_token_accuracy': 0.4433962404727936, 'epoch': 0.16}
+{'loss': 3.1796, 'grad_norm': 0.8501670956611633, 'learning_rate': 3.8400000000000005e-05, 'mean_token_accuracy': 0.4485596716403961, 'epoch': 0.16}
+{'loss': 1.4353, 'grad_norm': 0.5012691020965576, 'learning_rate': 3.8e-05, 'mean_token_accuracy': 0.6602671146392822, 'epoch': 0.16}
+{'loss': 1.7478, 'grad_norm': 0.6440404057502747, 'learning_rate': 3.76e-05, 'mean_token_accuracy': 0.5590062141418457, 'epoch': 0.16}
+{'loss': 2.2077, 'grad_norm': 0.6379117965698242, 'learning_rate': 3.72e-05, 'mean_token_accuracy': 0.511378824710846, 'epoch': 0.17}
+{'loss': 1.8636, 'grad_norm': 0.6282283663749695, 'learning_rate': 3.68e-05, 'mean_token_accuracy': 0.5814606547355652, 'epoch': 0.17}
+{'loss': 1.7236, 'grad_norm': 0.5309433341026306, 'learning_rate': 3.6400000000000004e-05, 'mean_token_accuracy': 0.6409185528755188, 'epoch': 0.17}
+{'loss': 1.7422, 'grad_norm': 0.535980224609375, 'learning_rate': 3.6e-05, 'mean_token_accuracy': 0.638146162033081, 'epoch': 0.17}
+{'loss': 1.9102, 'grad_norm': 0.42275065183639526, 'learning_rate': 3.56e-05, 'mean_token_accuracy': 0.557187020778656, 'epoch': 0.17}
+{'loss': 1.0393, 'grad_norm': 0.44274964928627014, 'learning_rate': 3.52e-05, 'mean_token_accuracy': 0.7527011036872864, 'epoch': 0.17}
+{'loss': 2.1139, 'grad_norm': 0.6903995275497437, 'learning_rate': 3.48e-05, 'mean_token_accuracy': 0.5402504205703735, 'epoch': 0.17}
+{'loss': 1.2072, 'grad_norm': 0.4079003632068634, 'learning_rate': 3.4399999999999996e-05, 'mean_token_accuracy': 0.6855838298797607, 'epoch': 0.17}
+{'loss': 1.3693, 'grad_norm': 0.4682861268520355, 'learning_rate': 3.4000000000000007e-05, 'mean_token_accuracy': 0.6700000166893005, 'epoch': 0.17}
+{'loss': 1.1596, 'grad_norm': 0.41358083486557007, 'learning_rate': 3.3600000000000004e-05, 'mean_token_accuracy': 0.7053763270378113, 'epoch': 0.17}
+{'loss': 1.7744, 'grad_norm': 0.5179390907287598, 'learning_rate': 3.32e-05, 'mean_token_accuracy': 0.5771186351776123, 'epoch': 0.17}
+{'loss': 2.2319, 'grad_norm': 0.5111784338951111, 'learning_rate': 3.2800000000000004e-05, 'mean_token_accuracy': 0.5175926089286804, 'epoch': 0.17}
+{'loss': 1.7877, 'grad_norm': 0.44502919912338257, 'learning_rate': 3.24e-05, 'mean_token_accuracy': 0.5376266241073608, 'epoch': 0.17}
+{'loss': 1.8604, 'grad_norm': 0.6352008581161499, 'learning_rate': 3.2000000000000005e-05, 'mean_token_accuracy': 0.6000000238418579, 'epoch': 0.17}
+{'loss': 1.7215, 'grad_norm': 0.48412132263183594, 'learning_rate': 3.16e-05, 'mean_token_accuracy': 0.60447758436203, 'epoch': 0.17}
+{'loss': 1.8852, 'grad_norm': 0.602008044719696, 'learning_rate': 3.12e-05, 'mean_token_accuracy': 0.6031957268714905, 'epoch': 0.17}
+{'loss': 2.1901, 'grad_norm': 0.4515197277069092, 'learning_rate': 3.08e-05, 'mean_token_accuracy': 0.5485231876373291, 'epoch': 0.17}
+{'loss': 1.4518, 'grad_norm': 0.7243687510490417, 'learning_rate': 3.04e-05, 'mean_token_accuracy': 0.6234458088874817, 'epoch': 0.17}
+{'loss': 1.3924, 'grad_norm': 0.3544670641422272, 'learning_rate': 3e-05, 'mean_token_accuracy': 0.6629737615585327, 'epoch': 0.17}
+{'loss': 2.3265, 'grad_norm': 0.49101418256759644, 'learning_rate': 2.96e-05, 'mean_token_accuracy': 0.5027027130126953, 'epoch': 0.17}
+{'loss': 1.4007, 'grad_norm': 0.5313118100166321, 'learning_rate': 2.9199999999999998e-05, 'mean_token_accuracy': 0.6370903253555298, 'epoch': 0.17}
+{'loss': 2.2808, 'grad_norm': 0.6504344344139099, 'learning_rate': 2.88e-05, 'mean_token_accuracy': 0.5204216241836548, 'epoch': 0.17}
+{'loss': 1.6034, 'grad_norm': 0.5134299993515015, 'learning_rate': 2.84e-05, 'mean_token_accuracy': 0.5428937077522278, 'epoch': 0.17}
+{'loss': 1.5747, 'grad_norm': 0.46905624866485596, 'learning_rate': 2.8000000000000003e-05, 'mean_token_accuracy': 0.6396840810775757, 'epoch': 0.17}
+{'loss': 1.8719, 'grad_norm': 0.5065651535987854, 'learning_rate': 2.7600000000000003e-05, 'mean_token_accuracy': 0.5325977802276611, 'epoch': 0.18}
+{'loss': 1.5659, 'grad_norm': 0.35115501284599304, 'learning_rate': 2.7200000000000004e-05, 'mean_token_accuracy': 0.6343234181404114, 'epoch': 0.18}
+{'loss': 1.8479, 'grad_norm': 0.6132662296295166, 'learning_rate': 2.6800000000000004e-05, 'mean_token_accuracy': 0.6148825287818909, 'epoch': 0.18}
+{'loss': 2.3352, 'grad_norm': 0.5642393827438354, 'learning_rate': 2.64e-05, 'mean_token_accuracy': 0.5422413945198059, 'epoch': 0.18}
+{'loss': 1.6943, 'grad_norm': 0.44524145126342773, 'learning_rate': 2.6000000000000002e-05, 'mean_token_accuracy': 0.6096256971359253, 'epoch': 0.18}
+{'loss': 1.6163, 'grad_norm': 0.6018549799919128, 'learning_rate': 2.5600000000000002e-05, 'mean_token_accuracy': 0.6135057210922241, 'epoch': 0.18}
+{'loss': 3.1726, 'grad_norm': 0.6703051328659058, 'learning_rate': 2.5200000000000003e-05, 'mean_token_accuracy': 0.43157893419265747, 'epoch': 0.18}
+{'loss': 1.5338, 'grad_norm': 0.4536651372909546, 'learning_rate': 2.48e-05, 'mean_token_accuracy': 0.6692913174629211, 'epoch': 0.18}
+{'loss': 2.1614, 'grad_norm': 0.7190884351730347, 'learning_rate': 2.44e-05, 'mean_token_accuracy': 0.5555555820465088, 'epoch': 0.18}
+{'loss': 2.3276, 'grad_norm': 0.5830475091934204, 'learning_rate': 2.4e-05, 'mean_token_accuracy': 0.5140562057495117, 'epoch': 0.18}
+{'loss': 1.8015, 'grad_norm': 0.6448482275009155, 'learning_rate': 2.36e-05, 'mean_token_accuracy': 0.6046025156974792, 'epoch': 0.18}
+{'loss': 1.6526, 'grad_norm': 0.5023375153541565, 'learning_rate': 2.32e-05, 'mean_token_accuracy': 0.6473181247711182, 'epoch': 0.18}
+{'loss': 1.4086, 'grad_norm': 0.4317338168621063, 'learning_rate': 2.2800000000000002e-05, 'mean_token_accuracy': 0.6728498935699463, 'epoch': 0.18}
+{'loss': 1.8857, 'grad_norm': 0.7339341640472412, 'learning_rate': 2.2400000000000002e-05, 'mean_token_accuracy': 0.6323777437210083, 'epoch': 0.18}
+{'loss': 1.6913, 'grad_norm': 0.4770699143409729, 'learning_rate': 2.2000000000000003e-05, 'mean_token_accuracy': 0.6258246898651123, 'epoch': 0.18}
+{'loss': 1.8183, 'grad_norm': 0.7675896883010864, 'learning_rate': 2.16e-05, 'mean_token_accuracy': 0.5900900959968567, 'epoch': 0.18}
+{'loss': 2.2474, 'grad_norm': 0.5132492780685425, 'learning_rate': 2.12e-05, 'mean_token_accuracy': 0.5397448539733887, 'epoch': 0.18}
+{'loss': 1.5825, 'grad_norm': 0.3655061721801758, 'learning_rate': 2.08e-05, 'mean_token_accuracy': 0.6278613209724426, 'epoch': 0.18}
+{'loss': 1.5469, 'grad_norm': 0.5229602456092834, 'learning_rate': 2.04e-05, 'mean_token_accuracy': 0.6444833874702454, 'epoch': 0.18}
+{'loss': 1.9381, 'grad_norm': 0.5550500154495239, 'learning_rate': 2e-05, 'mean_token_accuracy': 0.5170212984085083, 'epoch': 0.18}
+{'loss': 3.1883, 'grad_norm': 0.9784653782844543, 'learning_rate': 1.9600000000000002e-05, 'mean_token_accuracy': 0.4269406497478485, 'epoch': 0.18}
+{'loss': 1.7166, 'grad_norm': 0.44611167907714844, 'learning_rate': 1.9200000000000003e-05, 'mean_token_accuracy': 0.617793619632721, 'epoch': 0.18}
+{'loss': 2.488, 'grad_norm': 0.625471830368042, 'learning_rate': 1.88e-05, 'mean_token_accuracy': 0.515544056892395, 'epoch': 0.18}
+{'loss': 1.951, 'grad_norm': 0.5542371869087219, 'learning_rate': 1.84e-05, 'mean_token_accuracy': 0.577235758304596, 'epoch': 0.18}
+{'loss': 1.5475, 'grad_norm': 0.5257009863853455, 'learning_rate': 1.8e-05, 'mean_token_accuracy': 0.6301938891410828, 'epoch': 0.18}
+{'loss': 1.5085, 'grad_norm': 0.4901945888996124, 'learning_rate': 1.76e-05, 'mean_token_accuracy': 0.6324921250343323, 'epoch': 0.19}
+{'loss': 1.5411, 'grad_norm': 0.4459327161312103, 'learning_rate': 1.7199999999999998e-05, 'mean_token_accuracy': 0.656006932258606, 'epoch': 0.19}
+{'loss': 1.889, 'grad_norm': 0.49986398220062256, 'learning_rate': 1.6800000000000002e-05, 'mean_token_accuracy': 0.5806691646575928, 'epoch': 0.19}
+{'loss': 2.3381, 'grad_norm': 1.0683997869491577, 'learning_rate': 1.6400000000000002e-05, 'mean_token_accuracy': 0.5227963328361511, 'epoch': 0.19}
+{'loss': 1.1792, 'grad_norm': 0.35906875133514404, 'learning_rate': 1.6000000000000003e-05, 'mean_token_accuracy': 0.6873968243598938, 'epoch': 0.19}
+{'loss': 1.2363, 'grad_norm': 0.3861300051212311, 'learning_rate': 1.56e-05, 'mean_token_accuracy': 0.6968773603439331, 'epoch': 0.19}
+{'loss': 2.4386, 'grad_norm': 0.505976140499115, 'learning_rate': 1.52e-05, 'mean_token_accuracy': 0.5154894590377808, 'epoch': 0.19}
+{'loss': 1.6152, 'grad_norm': 0.46243804693222046, 'learning_rate': 1.48e-05, 'mean_token_accuracy': 0.6104218363761902, 'epoch': 0.19}
+{'loss': 1.3701, 'grad_norm': 0.36953651905059814, 'learning_rate': 1.44e-05, 'mean_token_accuracy': 0.6330887079238892, 'epoch': 0.19}
+{'loss': 1.6104, 'grad_norm': 0.49127790331840515, 'learning_rate': 1.4000000000000001e-05, 'mean_token_accuracy': 0.5915735363960266, 'epoch': 0.19}
+{'loss': 2.1958, 'grad_norm': 0.6653547883033752, 'learning_rate': 1.3600000000000002e-05, 'mean_token_accuracy': 0.5527272820472717, 'epoch': 0.19}
+{'loss': 2.1882, 'grad_norm': 0.4511234760284424, 'learning_rate': 1.32e-05, 'mean_token_accuracy': 0.5146396160125732, 'epoch': 0.19}
+{'loss': 1.2833, 'grad_norm': 0.5197058320045471, 'learning_rate': 1.2800000000000001e-05, 'mean_token_accuracy': 0.673815906047821, 'epoch': 0.19}
+{'loss': 1.6187, 'grad_norm': 0.6641167998313904, 'learning_rate': 1.24e-05, 'mean_token_accuracy': 0.6328233480453491, 'epoch': 0.19}
+{'loss': 2.3098, 'grad_norm': 0.624252200126648, 'learning_rate': 1.2e-05, 'mean_token_accuracy': 0.5375494360923767, 'epoch': 0.19}
+{'loss': 1.6332, 'grad_norm': 0.4584448039531708, 'learning_rate': 1.16e-05, 'mean_token_accuracy': 0.6040744185447693, 'epoch': 0.19}
+{'loss': 1.8748, 'grad_norm': 0.4976179301738739, 'learning_rate': 1.1200000000000001e-05, 'mean_token_accuracy': 0.5880933403968811, 'epoch': 0.19}
+{'loss': 1.8079, 'grad_norm': 0.6117427349090576, 'learning_rate': 1.08e-05, 'mean_token_accuracy': 0.5830546021461487, 'epoch': 0.19}
+{'loss': 1.9255, 'grad_norm': 0.6284508109092712, 'learning_rate': 1.04e-05, 'mean_token_accuracy': 0.546875, 'epoch': 0.19}
+{'loss': 1.0835, 'grad_norm': 0.37212008237838745, 'learning_rate': 1e-05, 'mean_token_accuracy': 0.7064363956451416, 'epoch': 0.19}
+{'loss': 1.8003, 'grad_norm': 0.520426869392395, 'learning_rate': 9.600000000000001e-06, 'mean_token_accuracy': 0.5441794991493225, 'epoch': 0.19}
+{'loss': 2.2271, 'grad_norm': 0.48967331647872925, 'learning_rate': 9.2e-06, 'mean_token_accuracy': 0.5361552238464355, 'epoch': 0.19}
+{'loss': 1.7476, 'grad_norm': 0.3788457214832306, 'learning_rate': 8.8e-06, 'mean_token_accuracy': 0.5883721113204956, 'epoch': 0.19}
+{'loss': 2.0304, 'grad_norm': 0.5535340309143066, 'learning_rate': 8.400000000000001e-06, 'mean_token_accuracy': 0.5903249979019165, 'epoch': 0.19}
+{'loss': 2.4583, 'grad_norm': 0.6432091593742371, 'learning_rate': 8.000000000000001e-06, 'mean_token_accuracy': 0.4801381826400757, 'epoch': 0.19}
+{'loss': 2.0271, 'grad_norm': 0.6177451610565186, 'learning_rate': 7.6e-06, 'mean_token_accuracy': 0.5832512378692627, 'epoch': 0.2}
+{'loss': 1.5016, 'grad_norm': 0.45548462867736816, 'learning_rate': 7.2e-06, 'mean_token_accuracy': 0.5935919284820557, 'epoch': 0.2}
+{'loss': 1.9247, 'grad_norm': 0.5314186811447144, 'learning_rate': 6.800000000000001e-06, 'mean_token_accuracy': 0.5930435061454773, 'epoch': 0.2}
+{'loss': 1.7665, 'grad_norm': 0.3204944133758545, 'learning_rate': 6.4000000000000006e-06, 'mean_token_accuracy': 0.5805585384368896, 'epoch': 0.2}
+{'loss': 1.7473, 'grad_norm': 0.5596861839294434, 'learning_rate': 6e-06, 'mean_token_accuracy': 0.5889639854431152, 'epoch': 0.2}
+{'loss': 1.6549, 'grad_norm': 0.4259259104728699, 'learning_rate': 5.600000000000001e-06, 'mean_token_accuracy': 0.5752050876617432, 'epoch': 0.2}
+{'loss': 1.3753, 'grad_norm': 0.43442124128341675, 'learning_rate': 5.2e-06, 'mean_token_accuracy': 0.6784452199935913, 'epoch': 0.2}
+{'loss': 1.5288, 'grad_norm': 0.4473579525947571, 'learning_rate': 4.800000000000001e-06, 'mean_token_accuracy': 0.587959885597229, 'epoch': 0.2}
+{'loss': 1.5305, 'grad_norm': 0.43062326312065125, 'learning_rate': 4.4e-06, 'mean_token_accuracy': 0.6069114208221436, 'epoch': 0.2}
+{'loss': 1.8854, 'grad_norm': 0.47321340441703796, 'learning_rate': 4.000000000000001e-06, 'mean_token_accuracy': 0.6053845882415771, 'epoch': 0.2}
+{'loss': 2.1728, 'grad_norm': 0.6915076375007629, 'learning_rate': 3.6e-06, 'mean_token_accuracy': 0.5221729278564453, 'epoch': 0.2}
+{'loss': 1.5785, 'grad_norm': 0.41250401735305786, 'learning_rate': 3.2000000000000003e-06, 'mean_token_accuracy': 0.6172741651535034, 'epoch': 0.2}
+{'loss': 1.5122, 'grad_norm': 0.3685925304889679, 'learning_rate': 2.8000000000000003e-06, 'mean_token_accuracy': 0.6022099256515503, 'epoch': 0.2}
+{'loss': 1.7865, 'grad_norm': 0.5475733876228333, 'learning_rate': 2.4000000000000003e-06, 'mean_token_accuracy': 0.6070215106010437, 'epoch': 0.2}
+{'loss': 1.6039, 'grad_norm': 0.4012472331523895, 'learning_rate': 2.0000000000000003e-06, 'mean_token_accuracy': 0.6039387583732605, 'epoch': 0.2}
+{'loss': 2.4135, 'grad_norm': 0.49340176582336426, 'learning_rate': 1.6000000000000001e-06, 'mean_token_accuracy': 0.5135999917984009, 'epoch': 0.2}
+{'loss': 1.5974, 'grad_norm': 0.37566277384757996, 'learning_rate': 1.2000000000000002e-06, 'mean_token_accuracy': 0.6434494256973267, 'epoch': 0.2}
+{'loss': 1.4233, 'grad_norm': 0.3821931481361389, 'learning_rate': 8.000000000000001e-07, 'mean_token_accuracy': 0.6516329646110535, 'epoch': 0.2}
+{'loss': 2.0405, 'grad_norm': 0.6050506830215454, 'learning_rate': 4.0000000000000003e-07, 'mean_token_accuracy': 0.5681818127632141, 'epoch': 0.2}
+{'loss': 2.4268, 'grad_norm': 0.6589663028717041, 'learning_rate': 0.0, 'mean_token_accuracy': 0.49787235260009766, 'epoch': 0.2}
+{'train_runtime': 5435.4257, 'train_samples_per_second': 0.368, 'train_steps_per_second': 0.092, 'train_loss': 1.836224660038948, 'epoch': 0.2}
+100%|███████████████████████████████████████| 500/500 [1:30:35<00:00, 10.87s/it]
+Model saved in PyTorch format at: phi2-finetuned-final/model.pt
